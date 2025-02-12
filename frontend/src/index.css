@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
+
+*{
+    font-family: Outfit;
+}
 
 .bg-primary{
     background-color: #5f6FFF;
@@ -11,3 +16,10 @@
 ::-webkit-scrollbar{
     @apply hidden
 }
+
+.gridTemplateColumn{
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+/* .gridTemplateColumn{
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+} */
