@@ -205,7 +205,7 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Ava Mitchell est dermatologue, spécialisée dans le diagnostic et le traitement des affections cutanées. Elle se distingue par son approche attentive et personnalisée, veillant à ce que chaque patient se sente en confiance pour discuter de ses préoccupations. Le Dr Mitchell met l'accent sur la prévention et l'éducation, offrant des conseils sur les soins de la peau, la protection solaire et les habitudes de vie saines. Sa compétence couvre une large gamme de conditions, de l'acné et de l'eczéma aux maladies cutanées plus complexes. Passionnée par son domaine, elle s'efforce d'améliorer la santé et l'apparence de la peau de ses patients, tout en renforçant leur confiance en eux.",
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
@@ -219,7 +219,7 @@ export const doctors = [
         speciality: 'Pediatricians',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Jeffrey King est pédiatre, dédié à la santé et au bien-être des enfants de tous âges. Il adopte une approche chaleureuse et amicale, créant un environnement rassurant pour les jeunes patients et leurs familles. Le Dr King met l'accent sur la prévention, en encourageant les vaccinations, les bilans de santé réguliers et une alimentation équilibrée. Sa passion pour la pédiatrie se manifeste dans sa capacité à communiquer efficacement avec les enfants, leur permettant de se sentir à l'aise durant les consultations. Il est également attentif aux préoccupations des parents, leur offrant des conseils sur le développement, le comportement et la santé globale de leurs enfants. Grâce à son expertise et à son engagement, le Dr King s'efforce de promouvoir une enfance saine et épanouie.",
         fees: 40,
         address: {
             line1: '47th Cross, Richmond',
@@ -233,7 +233,7 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Zoe Kelly est neurologue, spécialisée dans le diagnostic et le traitement des troubles du système nerveux. Elle se distingue par son approche empathique et approfondie, prenant le temps d'écouter ses patients et d'évaluer leurs symptômes de manière exhaustive. Le Dr Kelly est passionnée par l'éducation et explique clairement les conditions neurologiques, ainsi que les options de traitement disponibles. Sa compétence couvre un large éventail de troubles, allant des migraines aux maladies neurodégénératives. En mettant l'accent sur la recherche de solutions personnalisées, elle s'efforce d'améliorer la qualité de vie de ses patients, tout en les soutenant tout au long de leur parcours de santé neurologique.",
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -247,7 +247,7 @@ export const doctors = [
         speciality: 'Gastroenterologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Patrick Harris est gastro-entérologue, spécialisé dans le diagnostic et le traitement des troubles du système digestif. Il se distingue par son approche attentive et personnalisée, offrant à ses patients un environnement accueillant pour discuter de leurs préoccupations gastro-intestinales. Le Dr Harris met l'accent sur la prévention et l'éducation, expliquant l'importance d'une alimentation équilibrée et de dépistages réguliers pour maintenir la santé digestive. Sa compétence dans le traitement des maladies telles que le reflux gastro-œsophagien, les maladies inflammatoires de l'intestin et les troubles hépatiques est remarquable. Grâce à sa communication ouverte et à son soutien constant, il s'efforce d'améliorer la santé digestive de ses patients et leur qualité de vie globale.",
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -261,7 +261,7 @@ export const doctors = [
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Chloe Evans est médecin généraliste, passionnée par la promotion de la santé et le bien-être de ses patients. Elle adopte une approche holistique, prenant en compte les besoins physiques, émotionnels et sociaux de chaque individu. Le Dr Evans met un point d'honneur à établir des relations de confiance avec ses patients, créant un espace où ils se sentent à l'aise pour discuter de leurs préoccupations. Son engagement envers la prévention des maladies se traduit par des conseils sur les modes de vie sains et l'importance des bilans de santé réguliers. Grâce à ses compétences cliniques et à sa communication empathique, elle s'efforce d'améliorer la qualité de vie de ses patients et de les accompagner dans leur parcours de santé.",
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
@@ -275,7 +275,7 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Ryan Martinez est gynécologue, reconnu pour son engagement envers la santé reproductive des femmes. Avec une approche empathique et respectueuse, il crée un environnement sûr et accueillant où ses patientes peuvent discuter ouvertement de leurs préoccupations. Le Dr Martinez privilégie la prévention, en recommandant des examens réguliers et en fournissant des conseils sur la santé reproductive et les pratiques de vie saine. Sa compétence dans le diagnostic et le traitement des affections gynécologiques est exceptionnelle. Grâce à sa communication claire et à son soutien constant, il s'efforce d'améliorer la santé et le bien-être de ses patientes, en les accompagnant tout au long de leur parcours de santé.",
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
@@ -289,7 +289,7 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Christopher Davis se distingue par son engagement envers la santé globale de ses patients en tant que médecin généraliste. Il adopte une approche centrée sur le patient, créant un environnement accueillant où chacun se sent libre de partager ses préoccupations de santé. Le Dr Davis met l'accent sur la prévention, encourageant des examens réguliers et des choix de vie sains pour éviter les maladies. Sa compétence en matière de diagnostic et de traitement des affections courantes est remarquable. Grâce à sa communication claire et à son soutien constant, il s'efforce d’améliorer le bien-être et la qualité de vie de chacun de ses patients, en les accompagnant à chaque étape de leur parcours de santé.",
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
