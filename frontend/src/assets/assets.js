@@ -191,7 +191,7 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: "Le Dr Timothy White est gynécologue, reconnu pour son approche empathique et respectueuse envers la santé reproductive des femmes. Il s'engage à fournir des soins complets, allant des examens de routine aux traitements des troubles gynécologiques. Le Dr White crée un environnement sûr et accueillant, où ses patientes peuvent discuter ouvertement de leurs préoccupations. Il privilégie la prévention, en recommandant des bilans réguliers et en offrant des conseils sur la santé reproductive. Grâce à sa compétence et à sa communication claire, il s'efforce d'améliorer le bien-être de ses patientes, en les accompagnant tout au long de leur parcours de santé.",
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
