@@ -24,6 +24,33 @@ const Appointment = () => {
 
     // obtenir la date actuelle
     const today = new Date();
+    for (let i = 0; i < 7; i++) {
+      // obtenir des données avec index
+      const currentDate = new Date(today)
+      currentDate.setDate(today.getDate() + i);
+      
+      // réglage de l'heure de fin de la date avec index
+      const endTime = new Date();
+      endTime.setDate(today.getDate() + i);
+      endTime.setHours(21, 0, 0, 0);
+
+      // réglage de l'heure
+      if (today.getDate() === currentDate.getDate()) {
+        currentDate.setHours(currentDate.getHours() > 10 ? currentDate.getHours() + 1 : 10);
+        currentDate.setMinutes(currentDate.getMinutes() > 30 ? 30 : 0);
+      }else{
+        currentDate.setHours(10);
+        currentDate.setMinutes(0);
+      }
+
+      const timeSlots = []
+
+      while (currentDate < endTime) {
+        const formattedDate = currentDate.toLocaleDateString([], { hour: '2-digit', minute: '2-digit' }); // formater la date
+
+        // Ajouter un emplacement au tableau
+      }
+    }
   }
 
   useEffect(() => {
