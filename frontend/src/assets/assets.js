@@ -107,7 +107,7 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: "Le Dr Emily Larson se distingue par son engagement envers la santé des femmes, en offrant des soins gynécologiques de haute qualité et une attention particulière à chaque patiente. En tant que gynécologue, elle adopte une approche empathique, créant un environnement sûr et accueillant pour discuter des préoccupations de santé. Le Dr Larson met l'accent sur la prévention des maladies, encourageant des examens réguliers et des pratiques de santé proactives. Sa compétence dans le diagnostic précoce et le traitement des affections féminines est remarquable. Grâce à sa communication ouverte et à son soutien, elle s'efforce d'améliorer la santé et le bien-être de ses patientes.",
+        about: "Le Dr Emily Larson, gynécologue, s'engage pour la santé des femmes en offrant des soins de haute qualité. Elle crée un environnement empathique et sûr, encourage la prévention par des examens réguliers et améliore le bien-être de ses patientes grâce à sa communication ouverte.",
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
@@ -121,7 +121,7 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: "Le Dr Sarah Patel se distingue par son expertise en dermatologie, offrant des soins complets pour la santé de la peau, des cheveux et des ongles. En tant que dermatologue, elle adopte une approche personnalisée, écoutant attentivement les préoccupations de chaque patient. Le Dr Patel met l'accent sur la prévention des maladies cutanées, en conseillant sur des routines de soins adaptées et l'importance de la protection solaire. Sa compétence dans le diagnostic et le traitement des affections dermatologiques, qu'elles soient courantes ou complexes, est largement reconnue. Par sa communication claire et son soutien, elle s'efforce d'améliorer l'estime de soi et le bien-être de ses patients.",
+        about: "Le Dr Sarah Patel, experte en dermatologie, offre des soins complets pour la peau, les cheveux et les ongles. Son approche personnalisée et son écoute attentive favorisent la prévention des maladies cutanées, tandis que ses conseils sur les soins et la protection solaire sont inestimables.",
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
@@ -149,7 +149,7 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: "Le Dr Jennifer Garcia, neurologue, se spécialise dans le diagnostic et le traitement des troubles du système nerveux. Avec une approche attentive, elle établit une communication claire pour aider ses patients à comprendre leur condition. Elle met l'accent sur l'évaluation précoce et la prise en charge proactive des affections neurologiques, offrant un suivi personnalisé et un soutien constant.",
+        about: "Le Dr Jennifer Garcia, neurologue, excelle dans le diagnostic et le traitement des troubles du système nerveux. Grâce à une communication claire et attentive, elle aide ses patients à comprendre leur condition, tout en mettant l'accent sur une évaluation précoce et une prise en charge proactive.",
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -163,7 +163,7 @@ export const doctors = [
         speciality: 'Gastroenterologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: "Le Dr Andrew Williams, gastro-entérologue, se spécialise dans le diagnostic et le traitement des troubles digestifs. Il crée un environnement accueillant pour que ses patients discutent librement de leurs préoccupations. Axé sur la prévention, il encourage des habitudes alimentaires saines et des examens réguliers pour améliorer la santé digestive.",
+        about: "Le Dr Andrew Williams, gastro-entérologue, se concentre sur le diagnostic et le traitement des troubles digestifs. Il établit un environnement accueillant pour que ses patients expriment leurs préoccupations. Axé sur la prévention, il promeut des habitudes alimentaires saines et des examens réguliers.",
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -205,7 +205,7 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: "Le Dr Ava Mitchell, dermatologue spécialisée dans les affections cutanées, se distingue par son approche attentive et personnalisée. Elle veille à ce que chaque patient se sente en confiance pour aborder ses préoccupations. Elle met l'accent sur la prévention et l'éducation, offrant des conseils sur les soins de la peau et les habitudes de vie saines pour améliorer la santé cutanée et renforcer la confiance en soi.",
+        about: "Le Dr Ava Mitchell, dermatologue spécialisée dans les affections cutanées, se distingue par son approche personnalisée et attentive. Elle crée un climat de confiance pour que chaque patient puisse partager ses préoccupations, tout en mettant l’accent sur la prévention et l’éducation en matière de soins de la peau.",
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
