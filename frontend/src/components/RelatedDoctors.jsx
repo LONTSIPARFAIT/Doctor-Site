@@ -12,7 +12,7 @@ const RelatedDoctors = ({ speciality, docId }) => {
   const [relDoc, setRelDocs] = useState([]);
 
   useEffect(() => {
-    if (doctors.lenght > 0 && speciality) {
+    if (doctors.length > 0 && speciality) {
       const doctorsData = doctors.filter(
         (doc) => doc.speciality === speciality && doc._id !== docId
       );
@@ -30,10 +30,7 @@ const RelatedDoctors = ({ speciality, docId }) => {
       </p>
       <div className="w-full grid gridTemplateColumn grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">
         {relDoc.slice(0, 5).map((item, index) => (
-          <div
-            key={index}
-            onClick={() => navigate(`/appointment/${item._id}`)}
-            className="border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500"
+          <div key={index} onClick={() => {navigate(`/appointment/${item._id}`); scrollTo(0,0)}} className="border border-blue-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500"
           >
             <img className="bg-blue-50" src={item.image} alt="profile" />
             <div className="p-4 ">
