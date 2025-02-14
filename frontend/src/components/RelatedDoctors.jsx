@@ -9,7 +9,9 @@ const RelatedDoctors = () => {
     const [relDoc, setRelDocs] = useState([])
 
     useEffect(() =>{
-
+        if (doctors.lenght > 0 && speciality) {
+            const doctorsData = doctors.filter((doc)=> doc.speciality)
+        }
     },[doctors,speciality,docId])
 
   return (
