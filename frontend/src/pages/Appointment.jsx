@@ -49,7 +49,17 @@ const Appointment = () => {
         const formattedDate = currentDate.toLocaleDateString([], { hour: '2-digit', minute: '2-digit' }); // formater la date
 
         // Ajouter un emplacement au tableau
+        timeSlots.push({
+          datetime: new Date(currentDate),
+          time: formattedDate,
+        });
+
+        // augmenter l'heure de 30 minutes
+        currentDate.setMinutes(currentDate.getMinutes() + 30);
       }
+
+      // Ajouter des créneaux horaires au tableau
+      setDocSlots(( prev ) => [...prev, timeSlots]);
     }
   }
 
@@ -62,6 +72,11 @@ const Appointment = () => {
       getAvailableSlots();
     }
   }, [docInfo]);
+
+  useEffect(() => {
+    console.log(docSlots);
+    
+  }, [docSlots]);
 
   // const Appointment = () => {
   //     const { docId } = useParams();
