@@ -2,11 +2,14 @@
 @import "tailwindcss";
 
 *{
-    font-family: Outfit;
+    /* font-family: Outfit; */
 }
 
 .bg-primary{
     background-color: #5f6FFF;
+}
+.text-primary{
+    color: #5f6FFF;
 }
 
 .active hr {
