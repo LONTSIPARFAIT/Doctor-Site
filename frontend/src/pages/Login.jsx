@@ -36,7 +36,7 @@ const Login = () => {
         <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer"> {state === 'Sign Up' ? "Creer Un Compte" : "Se Connecter"} </button>
         {
           state === "Sign Up"
-          ? <p>Vous avez déjà un compte? <span onClick={()=>setState('Login')} className="text-primary underline cursor-pointer">Vous Connecter ici</span></p>
+          ? <p>Vous avez déjà un compte? <span onClick={()=>setState('Login')} className="text-primary underline cursor-pointer">Vous Connecter Ici</span></p>
           : <p>Creer un nouveau compte? <span onClick={()=>setState('Sign Up')} className="text-primary underline cursor-pointer">cliquez ici</span></p>
         }
       </div>
