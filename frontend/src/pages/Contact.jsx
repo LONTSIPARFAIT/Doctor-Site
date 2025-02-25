@@ -15,7 +15,7 @@ const Contact = () => {
         <img className="w-full md:max-w-[360px]" src={assets.contact_image} alt="" />
 
         <div className="flex flex-col justify-center items-start gap-6">
-          <p className="font-semibold text-lg text-gray-600">NOTRE NOTRE BUREAU</p>
+          <p className="font-semibold text-lg text-gray-600">NOTRE BUREAU</p>
           <p className="text-gray-500">00000 Willms Station <br /> Suite 000, Washington, USA</p>
           <p className="text-gray-500">Tel: (+237) 679324517 <br /> Email: lontsiparfait12@gmail.com</p>
           <p className="font-semibold text-lg text-gray-600">CAREERS AT PRESCRIPTO</p>
