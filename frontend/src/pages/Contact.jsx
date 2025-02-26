@@ -18,7 +18,7 @@ const Contact = () => {
           <p className="font-semibold text-lg text-gray-600">NOTRE BUREAU</p>
           <p className="text-gray-500">00000 Willms Station <br /> Suite 000, Washington, USA</p>
           <p className="text-gray-500">Tel: (+237) 679324517 <br /> Email: lontsiparfait12@gmail.com</p>
-          <p className="font-semibold text-lg text-gray-600"></p>
+          <p className="font-semibold text-lg text-gray-600">CARRIÈRES CHEZ</p>
           <p className="text-gray-500">Learn more about our teams and job openings.</p>
           <button className="border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500">Explore Jobs</button>
         </div>
