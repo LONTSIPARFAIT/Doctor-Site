@@ -29,7 +29,7 @@ const About = () => {
         
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-[#5f6FFF] hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
           <b>EFFICACITÉ:</b>
-          <p>Streamlined appointment scheduling that fits into your busy lifestyle.</p>
+          <p>Planification de rendez-vous simplifiée qui s&apos;adapte à votre style de vie chargé.</p>
         </div>
 
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-[#5f6FFF] hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
