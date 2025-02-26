@@ -9,7 +9,7 @@ const Header = () => {
       <div className='md:w-1/2 flex flex-col items-star justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
         <p className='text-3xl md:text-4xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight'>
         {/* lg:text-5xl  */}
-        Prendre rendez-voust <br /> Avec des médecins de confiance
+        Prendre rendez-vous <br /> Avec des médecins de confiance
         </p>
         <div className="flex flex-col md:flex-row items-center gap-3 text-white text-sm font-light">
           <img className='w-28' src={assets.group_profiles} alt="group_profiles" />
