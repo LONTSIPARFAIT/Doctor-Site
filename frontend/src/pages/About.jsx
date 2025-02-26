@@ -38,7 +38,7 @@ const About = () => {
         </div>
 
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-[#5f6FFF] hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
-          <b>PERSONALIZATION:</b>
+          <b>PERSONNALISATION:</b>
           <p>Tailored recommendations and reminders to help you stay on top of your health.</p>
         </div>
 
