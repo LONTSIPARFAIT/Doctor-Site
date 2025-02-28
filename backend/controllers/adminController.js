@@ -9,13 +9,13 @@ const addDoctor = async (req, res) => {
 
         // veriication de tous les donne d'ajout d'un medecin
         if (!name || !password || !specialty || !degree || !experience || !about || !fees || !address) {
-            return res.json({ success:false, message: 'Medecin ajouté avec succès' });
+            return res.json({ success:false, message: 'Missing detail' });
         }
         // console.log({ name, email, password, specialty, degree, experience, about, fees, address},imageFile);   
 
         // Validation de l'email
         if (!validator.isEmail(email)) {
-            
+            return res.json({ success:false, message: 'Veuillez entrez un email valide' });
         }
 
     } catch (error) {
