@@ -1,6 +1,7 @@
 import validator from "validator"
 import bcrypt from 'bcrypt'
 import { v2 as cloudinary } from "cloudinary";
+import doctorModel from "../models/doctorModel";
 
 // API pour ajouter un medecin
 const addDoctor = async (req, res) => {
@@ -42,8 +43,11 @@ const addDoctor = async (req, res) => {
             experience,
             about,
             fees,
-            address:JSON.parse,
+            address:JSON.parse(address),
+            date:Date.now(), 
         }
+
+        const newDoctor = new doctorModel(doctorData)
         
 
     } catch (error) {
