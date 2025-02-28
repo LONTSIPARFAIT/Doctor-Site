@@ -12,3 +12,5 @@ const addDoctor = async (req, res) => {
         
     }
 }
+
+export { addDoctor };
