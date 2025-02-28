@@ -1,4 +1,5 @@
 import validator from "validator"
+import bcrypt from 'bcrypt'
 
 // API pour ajouter un medecin
 const addDoctor = async (req, res) => {
@@ -17,6 +18,13 @@ const addDoctor = async (req, res) => {
         if (!validator.isEmail(email)) {
             return res.json({ success:false, message: 'Veuillez entrez un email valide' });
         }
+
+        // validation du mot de passe
+        if (password.length < 6) {
+            return res.json({ success:false, message: 'Veuillez entrez un password de 6 caratere au moins' });
+        }
+        //  hascharge du mot de passe
+        const salt = await bcrypt.genSalt(10)
 
     } catch (error) {
         console.error('Erreur lors de l\'ajout du médecin:', error);
