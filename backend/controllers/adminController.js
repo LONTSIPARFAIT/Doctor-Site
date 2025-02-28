@@ -25,6 +25,9 @@ const addDoctor = async (req, res) => {
         }
         //  hascharge du mot de passe
         const salt = await bcrypt.genSalt(10)
+        const hashedPassword = await bcrypt.hash(password, salt)
+
+        // upload
 
     } catch (error) {
         console.error('Erreur lors de l\'ajout du médecin:', error);
