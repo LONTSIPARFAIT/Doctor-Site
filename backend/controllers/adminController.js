@@ -1,4 +1,4 @@
-
+import validator from "validator"
 
 // API pour ajouter un medecin
 const addDoctor = async (req, res) => {
@@ -14,7 +14,7 @@ const addDoctor = async (req, res) => {
         // console.log({ name, email, password, specialty, degree, experience, about, fees, address},imageFile);   
 
         // Validation de l'email
-        if (condition) {
+        if (!validator.isEmail(email)) {
             
         }
 
