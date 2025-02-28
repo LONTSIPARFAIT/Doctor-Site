@@ -7,7 +7,12 @@ const addDoctor = async (req, res) => {
         const { name, email, password, specialty, degree, experience, about, fees, address } = req.body;
         const imageFile = req.file;
 
-        console.log({name, email, password, specialty, degree, experience, about, fees, address},imageFile);
+        // veriication de tous les donne d'ajout d'un medecin
+        if (condition) {
+            
+        }
+
+        // console.log({ name, email, password, specialty, degree, experience, about, fees, address},imageFile);
         
     //     await doctor.save();
     //     res.status(201).json({ message: 'Medecin ajouté avec succès' });
