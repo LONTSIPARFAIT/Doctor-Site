@@ -1,5 +1,6 @@
 import validator from "validator"
 import bcrypt from 'bcrypt'
+import { v2 as cloudinary } from "cloudinary";
 
 // API pour ajouter un medecin
 const addDoctor = async (req, res) => {
@@ -27,7 +28,9 @@ const addDoctor = async (req, res) => {
         const salt = await bcrypt.genSalt(10)
         const hashedPassword = await bcrypt.hash(password, salt)
 
-        // upload
+        // upload omage to cloudinary 
+        const imageUPload = await cloudinary.uploader.upload(imageFile.path, {resource_type:'image'})
+        
 
     } catch (error) {
         console.error('Erreur lors de l\'ajout du médecin:', error);
