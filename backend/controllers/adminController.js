@@ -31,6 +31,19 @@ const addDoctor = async (req, res) => {
         // upload omage to cloudinary 
         const imageUPload = await cloudinary.uploader.upload(imageFile.path, {resource_type:'image'})
         const imageUrl = imageUPload.secure_url
+
+        const doctorData = {
+            name,
+            email,
+            image: imageUrl,
+            password: hashedPassword,
+            specialty,
+            degree,
+            experience,
+            about,
+            fees,
+            address:JSON.parse,
+        }
         
 
     } catch (error) {
