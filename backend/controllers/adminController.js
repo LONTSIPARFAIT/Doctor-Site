@@ -8,7 +8,7 @@ const addDoctor = async (req, res) => {
         const imageFile = req.file;
 
         // veriication de tous les donne d'ajout d'un medecin
-        if (!name || !password ) {
+        if (!name || !password || !specialty) {
             
         }
 
