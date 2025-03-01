@@ -61,7 +61,17 @@ const addDoctor = async (req, res) => {
 // API pour la connexion de l'administrateur
 const loginAdmin = async (req, res) => {
     try {
-        
+
+        const { email, password } = req.body;
+
+        // Vérifiez si l'e-mail et le mot de passe sont corrects
+        if (email === process.env.ADMIN_EMAIL && password === process.env.ADMIN_PASSWORD) {
+            res.json({ success: true, message: 'Connexion réussie' });
+        } else {
+            res.status(401).json({ message: 'Email ou mot de passe incorrect' });
+            
+        }
+
     } catch (error) {
         console.error('Erreur lors de la connexion de l\'administrateur:', error);
         res.status(500).json({ message: 'Erreur du serveur' });
