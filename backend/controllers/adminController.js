@@ -60,7 +60,13 @@ const addDoctor = async (req, res) => {
 
 // API pour la connexion de l'administrateur
 const loginAdmin = async (req, res) => {
-    
+    try {
+        
+    } catch (error) {
+        console.error('Erreur lors de la connexion de l\'administrateur:', error);
+        res.status(500).json({ message: 'Erreur du serveur' });
+        
+    }
 }
 
-export { addDoctor };
+export { addDoctor, loginAdmin };
