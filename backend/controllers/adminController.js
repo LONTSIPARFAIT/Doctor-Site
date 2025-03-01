@@ -48,7 +48,9 @@ const addDoctor = async (req, res) => {
         }
 
         const newDoctor = new doctorModel(doctorData)
+        await newDoctor.save()
         
+        res.json({success:true,message:'Medecin ajouter evec success'})
 
     } catch (error) {
         console.error('Erreur lors de l\'ajout du médecin:', error);
