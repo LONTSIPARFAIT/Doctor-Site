@@ -1,7 +1,7 @@
 import validator from "validator"
 import bcrypt from 'bcrypt'
 import { v2 as cloudinary } from "cloudinary";
-import doctorModel from "../models/doctorModel";
+import doctorModel from "../models/doctorModel.js";
 
 // API pour ajouter un medecin
 const addDoctor = async (req, res) => {
