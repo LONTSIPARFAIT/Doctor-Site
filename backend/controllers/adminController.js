@@ -66,11 +66,11 @@ const loginAdmin = async (req, res) => {
         const { email, password } = req.body;
 
         // Vérifiez si l'e-mail et le mot de passe sont corrects
-        if (email === process.env.ADMIN_EMAIL && password === process.env.ADMIN_PASSWORD) {
+        if (email === process.env.ADMIN_EMAIL && password === process.env.ADMIN_PASSWORD, { expiresIn: '1h' }) {
 
             const token = jwt.sign( email+password, process.env.JWT_SECRET);
             // const token = jwt.sign({ email }, process.env.JWT_SECRET, { expiresIn: '1h' });
-            res.json({ success: true, message: 'Connexion réussie' });
+            res.json({ success: true, message: 'Connexion réussie',token });
         } else {
             res.status(401).json({ message: 'Email ou mot de passe incorrect' });
             
