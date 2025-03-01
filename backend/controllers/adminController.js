@@ -58,4 +58,9 @@ const addDoctor = async (req, res) => {
     }
 }
 
+// API pour la connexion de l'administrateur
+const loginAdmin = async (req, res) => {
+    
+}
+
 export { addDoctor };
