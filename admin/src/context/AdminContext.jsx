@@ -1,15 +1,15 @@
 import { createContext } from "react";
 
-const AppContext = createContext();
+const AdminContext = createContext();
 
-const AppContextProvider = (props) => {
+const AdminContextProvider = (props) => {
   const value = {};
 
   return (
-    <AppContext.Provider value={value}>
+    <AdminContext.Provider value={value}>
       {props.children}
-    </AppContext.Provider>
+    </AdminContext.Provider>
   );
 };
 
-export default AppContext;
+export default AdminContext;
