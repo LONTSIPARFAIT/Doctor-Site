@@ -22,9 +22,6 @@ const Login = () => {
   );
 };
 
-
-
-  const [state,setState]= useState('Sign Up')
   return (
     <form action="" className="min-h-[80vh] flex items-center">
       <div className="flex flex-col gap-3 m-auto items-start p-8 min-w-[340px] sm:min-w-96 border rounded-xl text-zinc-600 text-sm shadow-lg">
