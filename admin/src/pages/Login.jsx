@@ -16,7 +16,7 @@ const Login = () => {
           <p>Password</p>
           <input type="password" className="border border-zinc-300 rounded w-full p-2 mt-1" required/>
         </div>
-        <button className="">Connexion</button>
+        <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer">Connexion</button>
       </div>
     </form>
   );
