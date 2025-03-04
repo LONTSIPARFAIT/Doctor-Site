@@ -6,7 +6,7 @@ const Login = () => {
 
   return (
     <form className="min-h-[80vh] flex items-center">
-      <div className="flex flex-col gap-3 m-auto">
+      <div className="flex flex-col gap-3 m-auto items-start">
         <p className="">Connexion <span> {state} </span></p>
         <div>
           <p>Email</p>
