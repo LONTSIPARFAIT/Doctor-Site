@@ -52,14 +52,9 @@ const Login = () => {
         </div>
         <div className="w-full">
           <p className="">Mot de Passe</p>
-          <input className="border border-zinc-300 rounded w-full p-2 mt-1" type="password" onChange={(e)=>setPassword(e.target.name)} value={passsword} />
+          <input className="border border-zinc-300 rounded w-full p-2 mt-1" type="password"  />
         </div>
         <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer"> Se Connecter </button>
-        {
-          state === "Sign Up"
-          ? <p>Vous avez déjà un compte? <span onClick={()=>setState('Login')} className="text-primary underline cursor-pointer">Vous Connecter Ici</span></p>
-          : <p>Creer un nouveau compte? <span onClick={()=>setState('Sign Up')} className="text-primary underline cursor-pointer">Cliquez Ici</span></p>
-        }
       </div>
     </form>
   )
