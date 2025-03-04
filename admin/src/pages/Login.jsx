@@ -10,7 +10,7 @@ const Login = () => {
         <p className="">Connexion <span> {state} </span></p>
         <div>
           <p>Email</p>
-          <input type="email" required/>
+          <input type="email" className="" required/>
         </div>
         <div>
           <p>Password</p>
