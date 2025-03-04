@@ -5,8 +5,8 @@ const Login = () => {
   const [state, setState] = useState("Admin");
 
   return (
-    <form className="">
-      <div className="">
+    <form className="min-h-[80vh] flex items-center">
+      <div className="flex flex-col">
         <p className="">Connexion <span> {state} </span></p>
         <div>
           <p>Email</p>
