@@ -14,7 +14,7 @@ const Login = () => {
         </div>
         <div>
           <p>Password</p>
-          <input type="password" required/>
+          <input type="password" className="" required/>
         </div>
         <button>Connexion</button>
       </div>
