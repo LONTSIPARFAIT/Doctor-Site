@@ -33,8 +33,7 @@ const Login = () => {
 
   const [state,setState]= useState('Sign Up')
 
-  const [email,setEmail] = useState('')
-  const [passsword,setPassword] = useState('')
+  
   const [name,setName] = useState('')
 
   const onSubmitHandle = async (event) => {
