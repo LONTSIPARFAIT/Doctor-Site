@@ -33,10 +33,6 @@ const Login = () => {
 
   const [state,setState]= useState('Sign Up')
 
-  
-   const onSubmitHandle = async (event) => {
-    event.preventDefault()
-  }
 
   return (
     <form action="" className="min-h-[80vh] flex items-center">
