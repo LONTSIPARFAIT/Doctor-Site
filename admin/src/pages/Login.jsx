@@ -34,9 +34,7 @@ const Login = () => {
   const [state,setState]= useState('Sign Up')
 
   
-  const [name,setName] = useState('')
-
-  const onSubmitHandle = async (event) => {
+   const onSubmitHandle = async (event) => {
     event.preventDefault()
   }
 
