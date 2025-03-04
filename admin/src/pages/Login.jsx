@@ -10,7 +10,7 @@ const Login = () => {
         <p className="text-2xl font-semibold">Connexion <span> {state} </span></p>
         <div>
           <p>Email</p>
-          <input type="email" className="" required/>
+          <input type="email" className="border border-zinc-300 rounded w-full p-2 mt-1" required/>
         </div>
         <div>
           <p>Password</p>
