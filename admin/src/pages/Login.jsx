@@ -14,9 +14,9 @@ const Login = () => {
         </div>
         <div>
           <p>Password</p>
-          <input type="password" className="" required/>
+          <input type="password" className="border border-zinc-300 rounded w-full p-2 mt-1" required/>
         </div>
-        <button>Connexion</button>
+        <button className="">Connexion</button>
       </div>
     </form>
   );
