@@ -44,7 +44,7 @@ const Login = () => {
   return (
     <form action="" className="min-h-[80vh] flex items-center">
       <div className="flex flex-col gap-3 m-auto items-start p-8 min-w-[340px] sm:min-w-96 border rounded-xl text-zinc-600 text-sm shadow-lg">
-        <p className="text-2xl font-semibold"> {state === 'Sign Up' ? "Creer un Compte" : "Se Connecter"} </p>
+        <p className="text-2xl font-semibold"> Connexion <span> {state} </span> </p>
 
         <div className="w-full">
           <p className="">Email</p>
