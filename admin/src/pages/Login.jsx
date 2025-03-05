@@ -4,7 +4,7 @@ import { assets } from "../assets/assets.js";
 const Login = () => {
   const [state, setState] = useState("Admin");
   
-  const [email, setEmail] = 
+  const [email, setEmail] = useState('')
 
   return (
     <form className="min-h-[80vh] flex items-center">
