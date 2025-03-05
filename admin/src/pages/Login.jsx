@@ -5,7 +5,7 @@ const Login = () => {
   const [state, setState] = useState("Admin");
   
   const [email, setEmail] = useState('')
-  const [password, setPass]
+  const [password, setPassw]
 
   return (
     <form className="min-h-[80vh] flex items-center">
