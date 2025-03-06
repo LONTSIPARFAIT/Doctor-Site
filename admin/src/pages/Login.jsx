@@ -23,7 +23,7 @@ const Login = () => {
         {
           state === "Admin"
           ? <p>Connexion de Medecin <span>Cliquez Ici</span></p>
-          : <p>Connexion de Medecin <span>Cliquez Ici</span></p>
+          : <p>Connexion Admin <span>Cliquez Ici</span></p>
         } 
       </div>
     </form>
