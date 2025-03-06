@@ -22,7 +22,7 @@ const Login = () => {
         <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer">Connexion</button>
         {
           state === "Admin"
-          ? <p>Connexion de Medecin? <span className="hover:underline cursor-pointer" onClick={()=>setState('Doctor')}>Cliquez Ici</span></p>
+          ? <p>Connexion de Medecin? <span className=" text-primary hover:underline cursor-pointer" onClick={()=>setState('Doctor')}>Cliquez Ici</span></p>
           : <p>Connexion Admin? <span className="hover:underline cursor-pointer" onClick={()=>setState('Admin')}>Cliquez Ici</span></p>
         } 
       </div>
