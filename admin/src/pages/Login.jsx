@@ -1,10 +1,11 @@
 import React, { useContext, useState } from "react";
+import AdminContext from "../context/AdminContext";
 // import { assets } from "../assets/assets.js";
 
 const Login = () => {
   const [state, setState] = useState("Admin");
 
-  const {setToken} = useContext()
+  const {setToken} = useContext(AdminContext)
   
   // const [email, setEmail] = useState('')
   // const [password, setPassword] = useState();
