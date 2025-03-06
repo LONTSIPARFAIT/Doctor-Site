@@ -22,7 +22,7 @@ const Login = () => {
         <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer">Connexion</button>
         {
           state === "Admin"
-          ? <p>Connexion de Medecin</p>
+          ? <p>Connexion de Medecin <span></span></p>
           : <p></p>
         } 
       </div>
