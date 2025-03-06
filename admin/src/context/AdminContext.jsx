@@ -6,7 +6,9 @@ const AdminContextProvider = (props) => {
 
   const [aToken,setAToken] = useState('')
 
-  const value = {};
+  const value = {
+    aToken,setAToken
+  };
 
   return (
     <AdminContext.Provider value={value}>
