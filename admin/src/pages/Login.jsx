@@ -20,6 +20,7 @@ const Login = () => {
           <input type="password" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
         </div>
         <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer">Connexion</button>
+        {}
       </div>
     </form>
   );
