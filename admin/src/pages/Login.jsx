@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { assets } from "../assets/assets.js";
+// import { assets } from "../assets/assets.js";
 
 const Login = () => {
   const [state, setState] = useState("Admin");
   
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState();
+  // const [email, setEmail] = useState('')
+  // const [password, setPassword] = useState();
 
   return (
     <form className="min-h-[80vh] flex items-center">
