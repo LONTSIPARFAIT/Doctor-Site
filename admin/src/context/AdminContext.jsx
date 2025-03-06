@@ -4,7 +4,7 @@ const AdminContext = createContext();
 
 const AdminContextProvider = (props) => {
 
-  const [aToken,setAToken]
+  const [aToken,setAToken] = 
 
   const value = {};
 
