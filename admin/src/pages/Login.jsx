@@ -23,7 +23,7 @@ const Login = () => {
         {
           state === "Admin"
           ? <p>Connexion de Medecin? <span onClick={()=>setState}>Cliquez Ici</span></p>
-          : <p>Connexion Admin? <span onClick={()=>}>Cliquez Ici</span></p>
+          : <p>Connexion Admin? <span onClick={()=>setState}>Cliquez Ici</span></p>
         } 
       </div>
     </form>
