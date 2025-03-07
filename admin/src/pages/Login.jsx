@@ -10,7 +10,7 @@ const Login = () => {
   const { setAToken, backendUrl } = useContext(AdminContext);
 
   const onSubmitHandler = async (e) => {
-    
+    e.prevenDefault();
   }
   
 
