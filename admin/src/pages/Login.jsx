@@ -15,7 +15,7 @@ const Login = () => {
 
     try {
       if (state === "Admin") {
-        const (data) = await axios.post(`${backendUrl}/api/admin/login`, {})
+        const (data) = await axios.post(`${backendUrl}/api/admin/login`, {email,password})
       }else {
 
       }
