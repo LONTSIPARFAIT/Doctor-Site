@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { AdminContext } from "../context/AdminContext.jsx";
+import { AdminContext } from "../context/AdminContext";
 // import { assets } from "../assets/assets.js";
 
 const Login = () => {
