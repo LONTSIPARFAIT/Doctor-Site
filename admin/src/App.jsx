@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-  const {atoken} =euseContext(AppCont)
+  const {atoken} = useContext(AppCont)
   return (
     <div>
       <Login />
