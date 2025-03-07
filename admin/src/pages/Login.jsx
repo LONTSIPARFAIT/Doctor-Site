@@ -13,8 +13,10 @@ const Login = () => {
     e.prevenDefault();
 
     try {
-      if (state === "") {
+      if (state === "Admin") {
         
+      }else {
+
       }
     } catch (error) {
       
