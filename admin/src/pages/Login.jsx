@@ -17,6 +17,7 @@ const Login = () => {
       if (state === "Admin") {
         const data = await axios.post(`${backendUrl}/api/admin/login`, {email,password})
         if (data.success) {
+          console.log(data.token);
           
         }
       }else {
@@ -34,11 +35,11 @@ const Login = () => {
         <p className="text-2xl font-semibold m-auto">Connexion <span className="text-primary"> {state} </span></p>
         <div className="w-full">
           <p>Email</p>
-          <input onClick={(e) => setEmail(e.target.value)} value={email} type="email" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
+          <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
         </div>
         <div className="w-full">
           <p>Password</p>
-          <input onClick={(e) => setPassword(e.target.value)} value={password} type="password" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
+          <input onChange={(e) => setPassword(e.target.value)} value={password} type="password" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
         </div>
         <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer">Connexion</button>
         {
