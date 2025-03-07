@@ -21,9 +21,11 @@ const Login = () => {
           
         }
       }else {
-
+        console.log();
+        
       }
     } catch (error) {
+      console.error(error);
       
     }
   }
