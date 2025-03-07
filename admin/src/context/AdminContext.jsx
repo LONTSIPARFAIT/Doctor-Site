@@ -21,4 +21,4 @@ const AdminContextProvider = (props) => {
   );
 };
 
-export default AdminContextProvider;
+export { AdminContext, AdminContextProvider };
