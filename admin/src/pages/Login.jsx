@@ -20,7 +20,7 @@ const Login = () => {
         </div>
         <div className="w-full">
           <p>Password</p>
-          <input onClick={(e) => setPassword(e.target.value)} value={email} type="password" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
+          <input onClick={(e) => setPassword(e.target.value)} value={password} type="password" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
         </div>
         <button className="bg-primary text-white w-full py-2 rounded-md text-base cursor-pointer">Connexion</button>
         {
