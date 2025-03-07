@@ -13,7 +13,9 @@ const Login = () => {
     e.prevenDefault();
 
     try {
-      
+      if (state === "") {
+        
+      }
     } catch (error) {
       
     }
