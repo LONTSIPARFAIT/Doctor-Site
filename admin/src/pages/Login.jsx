@@ -21,7 +21,7 @@ const Login = () => {
         if (data.success) {
           localStorage.setItem("aToken", data.token);
           setAToken(data.token);
-          
+          toast.success("Connexion réussie !");
           // console.log(data.token);
           
         }else{
