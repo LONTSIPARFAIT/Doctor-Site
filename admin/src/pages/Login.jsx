@@ -16,7 +16,7 @@ const Login = () => {
         <p className="text-2xl font-semibold m-auto">Connexion <span className="text-primary"> {state} </span></p>
         <div className="w-full">
           <p>Email</p>
-          <input onClick={} type="email" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
+          <input onClick={()} type="email" className="border border-[#DADADA] rounded w-full p-2 mt-1" required/>
         </div>
         <div className="w-full">
           <p>Password</p>
