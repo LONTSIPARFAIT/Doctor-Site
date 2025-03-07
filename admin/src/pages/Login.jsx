@@ -5,7 +5,7 @@ import AdminContext from "../context/AdminContext";
 const Login = () => {
   const [state, setState] = useState("Admin");
 
-  const { setToken,backentUrl } = useContext(AdminContext)
+  const { aToken,backentUrl } = useContext(AdminContext)
   
   // const [email, setEmail] = useState('')
   // const [password, setPassword] = useState();
