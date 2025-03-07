@@ -5,10 +5,10 @@ import AdminContext from "../context/AdminContext";
 const Login = () => {
   const [state, setState] = useState("Admin");
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState();
 
   const { setAToken,backentUrl } = useContext(AdminContext);
   
-  // const [password, setPassword] = useState();
 
   return (
     <form className="min-h-[80vh] flex items-center">
