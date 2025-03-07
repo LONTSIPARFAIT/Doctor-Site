@@ -1,8 +1,7 @@
 import React, { useContext, useState } from "react";
 import { AdminContext } from "../context/AdminContext";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify"; // Importation correcte
-import 'react-toastify/dist/ReactToastify.css'; // Importation des styles
+import { toast } from "react-toastify"; 
 // import { assets } from "../assets/assets.js";
 
 const Login = () => {
@@ -58,7 +57,6 @@ const Login = () => {
         } 
       </div>
     </form>
-    <ToastContainer />
   );
 };
 
