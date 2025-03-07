@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Login from './pages/Login'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-  const {atoken}
+  const {atoken} =euseContext(AppCont)
   return (
     <div>
       <Login />
