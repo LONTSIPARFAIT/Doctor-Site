@@ -5,7 +5,7 @@ import { AdminContext } from '../context/AdminContext';
 const Navbar = () => {
   const  {aToken} = useContext(AdminContext);
   return (
-    <div class >
+    <div className='' >
       <div>
         <img src={assets.admin_logo} alt='' />
         <p> { aToken ? 'Admin' : 'Doctor' } </p>
