@@ -5,7 +5,7 @@ import { AdminContext } from '../context/AdminContext';
 const Navbar = () => {
   const  {aToken} = useContext(AdminContext);
   return (
-    <div className='flex justify-between items-' >
+    <div className='flex justify-between items-center px-0' >
       <div>
         <img src={assets.admin_logo} alt='' />
         <p> { aToken ? 'Admin' : 'Doctor' } </p>
