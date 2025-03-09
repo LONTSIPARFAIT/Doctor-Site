@@ -1,8 +1,10 @@
 import React, { useCallback, useContext } from 'react'
 import { assets } from '../assets/assets'
+import { AdminContext } from '../context/AdminContext';
 
 const Navbar = () => {
-  const  {aToken} = useContext();
+  const  {aTken} = useContext(AdminContext);
+  return (
     <div >
       <div>
         <img src={assets.admin_logo} alt='' />
