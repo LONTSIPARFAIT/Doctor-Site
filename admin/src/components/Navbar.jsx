@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center px-4 sm:px-10 py-3 border-b bg-white' >
       <div className='flex items-center gap-2 text-sm'>
-        <img className='w-' src={assets.admin_logo} alt='' />
+        <img className='w-36' src={assets.admin_logo} alt='' />
         <p> { aToken ? 'Admin' : 'Doctor' } </p>
       </div>
       <button>Logout</button>
