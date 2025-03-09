@@ -6,6 +6,7 @@ const Navbar = () => {
     <div>
       <div>
         <img src={assets.admin_logo} alt='' />
+        p
       </div>
     </div>
   )
