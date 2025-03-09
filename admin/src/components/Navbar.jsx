@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets } from '../assets/ad'
+import { assets } from '../assets/admin'
 
 const Navbar = () => {
   return (
