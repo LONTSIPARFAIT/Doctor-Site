@@ -10,7 +10,7 @@ const App = () => {
   const { aToken } = useContext(AdminContext)
 
   return aToken ? (
-    <div className='bg-[#F8]'> 
+    <div className='bg-[#F8F]'> 
       <ToastContainer />
 
     </div>
