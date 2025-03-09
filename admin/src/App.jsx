@@ -3,6 +3,7 @@ import Login from './pages/Login'
 import { ToastContainer,  } from 'react-toastify';
 import { AdminContext } from './context/AdminContext';
 import 'react-toastify/dist/ReactToastify.css';
+import Navbar from './components/Navbar';
 
 
 
