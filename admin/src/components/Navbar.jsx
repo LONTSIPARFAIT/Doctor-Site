@@ -10,6 +10,7 @@ const Navbar = () => {
         <img src={assets.admin_logo} alt='' />
         <p> { aToken ? 'Admin' : 'Doctor' } </p>
       </div>
+      button
     </div>
   )
 }
