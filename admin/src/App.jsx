@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const App = () => {
-  const { aToken } = useContext(AppContext)
+  const { aToken } = useContext()
 
   return aToken ? (
     <div>
