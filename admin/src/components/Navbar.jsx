@@ -1,10 +1,11 @@
 import React from 'react'
+import React from 'react'
 
 const Navbar = () => {
   return (
     <div>
       <div>
-        <img src={asset} alt='' />
+        <img src={assets} alt='' />
       </div>
     </div>
   )
