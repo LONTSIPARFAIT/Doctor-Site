@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import Login from './pages/Login'
 import { ToastContainer,  } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { AdminContext } from './context/AdminContext';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -18,7 +18,8 @@ const App = () => {
   ) : (
     <>
     
-      <Login />
+      <Navbar />
+      {/* <Login /> */}
       <ToastContainer />
     </>
   )
