@@ -3,10 +3,10 @@ import { assets } from '../assets/assets'
 
 const Navbar = () => {
   return (
-    <div>
+    <div >
       <div>
         <img src={assets.admin_logo} alt='' />
-        p
+        <p> </p>
       </div>
     </div>
   )
