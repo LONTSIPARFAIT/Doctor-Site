@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <div>
-        <img src='' />
+        <img src='' alt='' />
       </div>
     </div>
   )
