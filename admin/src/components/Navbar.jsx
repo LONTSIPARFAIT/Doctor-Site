@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets'
 
 const Navbar = () => {
-  const ;
+  const  {a};
   return (
     <div >
       <div>
