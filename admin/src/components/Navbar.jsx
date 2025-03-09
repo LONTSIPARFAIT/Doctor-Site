@@ -8,7 +8,7 @@ const Navbar = () => {
     <div >
       <div>
         <img src={assets.admin_logo} alt='' />
-        <p> { } </p>
+        <p> { aToken } </p>
       </div>
     </div>
   )
