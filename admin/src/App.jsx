@@ -25,7 +25,10 @@ const App = () => {
         <Sidebar />
          <Routes>
           <Route path='/' element={<></>} />
-          <Route path='/admin-dasboard' element={<Dashboard />} />
+          <Route path='/admin-dashboard' element={<Dashboard />} />
+          <Route path='/all-appointments' element={<AllAppointments />} />
+          <Route path='/add-doctor' element={<AddDoctor />} />
+          <Route path='/doctor-list' element={<DoctorList />} />
         </Routes>
       </div> */}
 
