@@ -18,6 +18,21 @@ export default function Sidebar() {
             <p>Dashboard</p>
           </NavLink>
 
+          <NavLink>
+            <img src={assets.home_icon} alt="" />
+            <p>Dashboard</p>
+          </NavLink>
+          
+          <NavLink>
+            <img src={assets.home_icon} alt="" />
+            <p>Dashboard</p>
+          </NavLink>
+          
+          <NavLink>
+            <img src={assets.home_icon} alt="" />
+            <p>Dashboard</p>
+          </NavLink>
+
 
         </ul>
       }
