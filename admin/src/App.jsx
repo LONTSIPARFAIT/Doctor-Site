@@ -5,7 +5,7 @@ import { AdminContext } from './context/AdminContext';
 import 'react-toastify/dist/ReactToastify.css';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
-import { Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 
 
@@ -18,6 +18,9 @@ const App = () => {
       <Navbar />
       {/* <div className='flex items-start'>
         <Sidebar />
+         <Routes>
+          <Route />
+        </Routes>
       </div> */}
 
     </div>
@@ -29,7 +32,7 @@ const App = () => {
       <div className='flex items-start'>
         <Sidebar />
         <Routes>
-          <Route />
+          <Route path='' />
         </Routes>
       </div>
       {/* end intrus */}
