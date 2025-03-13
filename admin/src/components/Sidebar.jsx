@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 export default function Sidebar() {
 
-  const {aToken} =
+  const {aToken} = useContext
 
   return (
 
     <div>
       {
-        
+        aToken
       }
     </div>
   )
