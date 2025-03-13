@@ -40,7 +40,7 @@ const App = () => {
           <Route path='/' element={<></>} />
           <Route path='/admin-dashboard' element={<Dashboard />} />
           <Route path='/all-appointments' element={<AllAppointments />} />
-          <Route path='/add-doctor' element={<AddD />} />
+          <Route path='/add-doctor' element={<AddDoctor />} />
         </Routes>
       </div>
       {/* end intrus */}
