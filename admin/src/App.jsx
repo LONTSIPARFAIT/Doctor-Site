@@ -22,11 +22,14 @@ const App = () => {
     </div>
   ) : (
     <>
-    
+
     {/* start intrus */}
       <Navbar />
       <div className='flex items-start'>
         <Sidebar />
+        <Routes>
+          
+        </Routes>
       </div>
       {/* end intrus */}
 
