@@ -39,7 +39,7 @@ const App = () => {
           <Route path='/' element={<></>} />
           <Route path='/admin-dashboard' element={<Dashboard />} />
           <Route path='/all-appointments' element={<Dashboard />} />
-          <Route path='/add-dashboard' element={<Dashboard />} />
+          <Route path='/add-doctor' element={<Dashboard />} />
         </Routes>
       </div>
       {/* end intrus */}
