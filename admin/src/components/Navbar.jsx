@@ -3,8 +3,12 @@ import { assets } from '../assets/assets'
 import { AdminContext } from '../context/AdminContext';
 
 const Navbar = () => {
-  
+
   const  {aToken} = useContext(AdminContext);
+
+  const logout = () =>{
+    
+  }
 
   return (
     <div className='flex justify-between items-center px-4 sm:px-10 py-3 border-b bg-white' >
