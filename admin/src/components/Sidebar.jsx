@@ -14,7 +14,8 @@ export default function Sidebar() {
         aToken && <ul>
 
           <NavLink>
-            <img src={assets} alt="" />
+            <img src={assets.home_icon} alt="" />
+            <p>Dashboard</p>
           </NavLink>
 
 
