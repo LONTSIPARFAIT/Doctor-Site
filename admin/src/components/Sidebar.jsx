@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 
 export default function Sidebar() {
 
-  const {aToken} = useContext
+  const {aToken} = useContext()
 
   return (
 
