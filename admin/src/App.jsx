@@ -20,7 +20,8 @@ const App = () => {
       {/* <div className='flex items-start'>
         <Sidebar />
          <Routes>
-          <Route />
+          <Route path='/' element={<></>} />
+          <Route path='/admin-dasboard' element={<Dashboard />} />
         </Routes>
       </div> */}
 
