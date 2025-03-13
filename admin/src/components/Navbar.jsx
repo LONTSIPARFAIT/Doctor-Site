@@ -4,10 +4,10 @@ import { AdminContext } from '../context/AdminContext';
 
 const Navbar = () => {
 
-  const  {aToken} = useContext(AdminContext);
+  const  {aToken,} = useContext(AdminContext);
 
   const logout = () =>{
-    
+
   }
 
   return (
