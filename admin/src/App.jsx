@@ -36,7 +36,7 @@ const App = () => {
         <Dashboard />
         <Routes>
           <Route path='/' element={<></>} />
-          <Route path='/admin-dasboard' element={<Dashboard />} />
+          <Route path='/admin-dashboard' element={<Dashboard />} />
         </Routes>
       </div>
       {/* end intrus */}
