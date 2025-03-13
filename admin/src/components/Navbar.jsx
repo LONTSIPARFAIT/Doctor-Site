@@ -4,7 +4,7 @@ import { AdminContext } from '../context/AdminContext';
 
 const Navbar = () => {
 
-  const  {aToken,} = useContext(AdminContext);
+  const  {aToken,setAToken} = useContext(AdminContext);
 
   const logout = () =>{
 
