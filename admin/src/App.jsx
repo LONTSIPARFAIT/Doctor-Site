@@ -15,7 +15,7 @@ const App = () => {
     <div className='bg-[#F8F9FD]'> 
       <ToastContainer />
       <Navbar />
-      <div className='flex items-center'>
+      <div className='flex items-Start'>
         <Sidebar />
       </div>
 
