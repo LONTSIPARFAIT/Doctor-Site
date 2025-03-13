@@ -7,7 +7,7 @@ const Navbar = () => {
   const  {aToken,setAToken} = useContext(AdminContext);
 
   const logout = () =>{
-
+    aToken && setAToken()
   }
 
   return (
