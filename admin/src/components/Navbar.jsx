@@ -6,6 +6,8 @@ const Navbar = () => {
 
   const  {aToken,setAToken} = useContext(AdminContext);
 
+  const navigate = use
+
   const logout = () =>{
     aToken && setAToken('')
     aToken && localStorage.removeItem('aToken')
