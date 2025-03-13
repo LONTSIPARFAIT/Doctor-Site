@@ -32,7 +32,7 @@ const App = () => {
       <div className='flex items-start'>
         <Sidebar />
         <Routes>
-          <Route path='/' />
+          <Route path='/' element />
         </Routes>
       </div>
       {/* end intrus */}
