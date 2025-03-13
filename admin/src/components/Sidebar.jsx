@@ -13,7 +13,7 @@ export default function Sidebar() {
         aToken && <ul>
 
           <NavLink>
-            <img src="" alt="" />
+            <img src={""} alt="" />
           </NavLink>
 
 
