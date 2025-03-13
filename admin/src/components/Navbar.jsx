@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const logout = () =>{
     aToken && setAToken('')
-    aToken && setAToken()
+    aToken && localStorage()
   }
 
   return (
