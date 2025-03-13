@@ -33,7 +33,7 @@ const App = () => {
         <Sidebar />
         <Routes>
           <Route path='/' element={<></>} />
-          <Route path='/admin-dasbo' element={<></>} />
+          <Route path='/admin-dasboard' element={<></>} />
         </Routes>
       </div>
       {/* end intrus */}
