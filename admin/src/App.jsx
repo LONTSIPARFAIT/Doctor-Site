@@ -14,6 +14,7 @@ const App = () => {
     <div className='bg-[#F8F9FD]'> 
       <ToastContainer />
       <Navbar />
+      <div></div>
 
     </div>
   ) : (
