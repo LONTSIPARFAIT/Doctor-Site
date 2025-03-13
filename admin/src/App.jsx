@@ -28,7 +28,7 @@ const App = () => {
       <div className='flex items-start'>
         <Sidebar />
         <Routes>
-          
+          <Sidebar />
         </Routes>
       </div>
       {/* end intrus */}
