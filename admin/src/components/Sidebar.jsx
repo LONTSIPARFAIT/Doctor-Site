@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Sidebar() {
 
-  const aTOken =
+  const aToken =
 
   return (
 
