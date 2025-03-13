@@ -1,8 +1,7 @@
-import React, { useContext } from 'react'
+import React from 'react'
 
 export default function Sidebar() {
   return (
-    const {aToken} = useContext
 
     <div>
       {
