@@ -5,7 +5,7 @@ export default function Sidebar() {
 
     <div>
       {
-        d
+        
       }
     </div>
   )
