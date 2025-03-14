@@ -37,7 +37,7 @@ const App = () => {
     <>
 
     {/* start intrus */}
-      <Navbar />
+      {/* <Navbar />
       <div className='flex items-start'>
         <Sidebar />
         <Dashboard />
@@ -48,7 +48,7 @@ const App = () => {
           <Route path='/add-doctor' element={<AddDoctor />} />
           <Route path='/doctor-list' element={<DoctorList />} />
         </Routes>
-      </div>
+      </div> */}
       {/* end intrus */}
 
       {/* <Login /> */}
