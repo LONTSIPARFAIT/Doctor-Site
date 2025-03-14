@@ -25,7 +25,7 @@ export default function Sidebar() {
           
           <NavLink>
             <img src={assets.add_icon} alt="" />
-            <p>Dashboard</p>
+            <p>Add-Docote</p>
           </NavLink>
           
           <NavLink>
