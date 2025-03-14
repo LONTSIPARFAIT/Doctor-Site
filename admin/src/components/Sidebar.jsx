@@ -29,7 +29,7 @@ export default function Sidebar() {
           
           <NavLink>
             <img src={assets.people_icon} alt="" />
-            <p>Dashboard</p>
+            <p>LIste des medecin</p>
           </NavLink>
 
 
