@@ -24,7 +24,7 @@ export default function Sidebar() {
           </NavLink>
           
           <NavLink>
-            <img src={assets.a} alt="" />
+            <img src={assets.all} alt="" />
             <p>Dashboard</p>
           </NavLink>
           
