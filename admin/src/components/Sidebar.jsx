@@ -24,7 +24,7 @@ export default function Sidebar() {
           </NavLink>          
           <NavLink>
             <img src={assets.add_icon} alt="" />
-            <p>Add-Doctor</p>
+            <p>AJouter un medecin</p>
           </NavLink>
           
           <NavLink>
