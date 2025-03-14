@@ -10,6 +10,8 @@ const Navbar = () => {
   const navigate = useNavigate()
 
   const logout = () =>{
+    console.log('success');
+    
     navigate('/')
     aToken && setAToken('')
     aToken && localStorage.removeItem('aToken')
