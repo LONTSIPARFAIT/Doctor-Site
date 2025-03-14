@@ -21,11 +21,10 @@ export default function Sidebar() {
           <NavLink>
             <img src={assets.appointment_icon} alt="" />
             <p>Appointments</p>
-          </NavLink>
-          
+          </NavLink>          
           <NavLink>
             <img src={assets.add_icon} alt="" />
-            <p>Add-Docote</p>
+            <p>Add-Doctor</p>
           </NavLink>
           
           <NavLink>
