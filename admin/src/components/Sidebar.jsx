@@ -19,7 +19,7 @@ export default function Sidebar() {
           </NavLink>
 
           <NavLink>
-            <img src={assets.home_icon} alt="" />
+            <img src={assets.appointment_icon} alt="" />
             <p>Dashboard</p>
           </NavLink>
           
