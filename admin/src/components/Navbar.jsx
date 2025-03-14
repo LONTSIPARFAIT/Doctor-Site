@@ -10,7 +10,7 @@ const Navbar = () => {
   const navigate = useNavigate()
 
   const logout = () =>{
-    console.log('success');
+    console.log('success',aToken);
     
     navigate('/')
     aToken && setAToken('')
