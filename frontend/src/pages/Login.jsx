@@ -18,7 +18,7 @@ const Login = () => {
     <form onSubmit={onSubmitHandle} action="" className="min-h-[80vh] flex items-center">
       <div className="flex flex-col gap-3 m-auto items-start p-8 min-w-[340px] sm:min-w-96 border rounded-xl text-zinc-600 text-sm shadow-lg">
         <p className="text-2xl font-semibold"> {state === 'Sign Up' ? "Creer un Compte" : "Se Connecter"} </p>
-        <p className="">Please {state === 'Sign Up' ? "sign up" : "log in"} to book appointment</p>
+        <p className="">Veuillez vous {state === 'Sign Up' ? "inscrire" : "connecter"} pour prendre rendez-vous</p>
         {
           state === 'Sign Up' && <div className="w-full">
           <p className="">Nom Complet</p>
