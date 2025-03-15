@@ -1,22 +1,19 @@
 import mongoose from "mongoose";
 
-const connectDB = async ()=>{
-
+const connectDB = async () => {
   mongoose.connection.on("connected", () => {
-    console.log("Mongodb connectée avec succès");
+    console.log("MongoDB connectée avec succès");
+  });
+
+  mongoose.connection.on("error", (error) => {
+    console.error(`Erreur de connexion à MongoDB: ${error.message}`);
   });
 
   // Connexion à la base de données locale
   await mongoose.connect(`${process.env.MONGODB_URI}/Prescripto`, {
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true, 
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
   });
+};
 
-  // mongoose.connection.on("connected",() =>console.log("Mongodb connectée avec success"))
-
-  // await mongoose.connect(`${process.env.MONGODB_URI}/Prescripto`)
-
-
-}
-
-export default connectDB
+export default connectDB;
