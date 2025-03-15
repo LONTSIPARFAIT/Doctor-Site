@@ -9,7 +9,7 @@ import adminRouter from './routes/doctorRoute.js';
 const app = express();
 const port = process.env.PORT || 5000;
 
-// connexion de la base 
+// connexion de la base de données
 connectDB();    
 connectCloudinary();
 
