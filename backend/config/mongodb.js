@@ -12,9 +12,9 @@ const connectDB = async () => {
       console.log("MongoDB connectée avec succès");
     });
 
-    // mongoose.connection.on("error", (error) => {
-    //   console.error(`Erreur de connexion à MongoDB: ${error.message}`);
-    // });
+    mongoose.connection.on("error", (error) => {
+      console.error(`Erreur de connexion à MongoDB: ${error.message}`);
+    });
     
   } catch (error) {
     console.error(`Erreur lors de la connexion à MongoDB: ${error.message}`);
