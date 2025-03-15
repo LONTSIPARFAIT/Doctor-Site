@@ -12,8 +12,8 @@ const connectDB = async ()=>{
 
     // Connexion à la base de données locale
     await mongoose.connect(`${process.env.MONGODB_URI}/Prescripto`, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true, 
+      // useNewUrlParser: true,
+      // useUnifiedTopology: true, 
     });
 
 }
