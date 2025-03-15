@@ -17,7 +17,7 @@ const Navbar = () => {
     aToken && localStorage.removeItem('aToken')
   }
 
-  console.log('success',logout);
+  // console.log('success',logout);
 
 
   return (
