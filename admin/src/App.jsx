@@ -37,7 +37,7 @@ const App = () => {
     <>
 
     {/* start intrus */}
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <div className='flex items-start'>
         <Sidebar />
         <Dashboard />
