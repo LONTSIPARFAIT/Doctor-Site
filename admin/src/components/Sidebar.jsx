@@ -22,7 +22,7 @@ export default function Sidebar() {
             <img src={assets.appointment_icon} alt="" />
             <p>Rendez-vous</p>
           </NavLink>          
-          <NavLink to={'/all-appointments'}>
+          <NavLink to={'/add-doctor'}>
             <img src={assets.add_icon} alt="" />
             <p>Ajouter un medecin</p>
           </NavLink>
