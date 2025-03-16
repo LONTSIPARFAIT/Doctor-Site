@@ -46,7 +46,7 @@ const AddDoctor = () => {
         console.log(`${key} : ${value}`);
       })
 
-      const {data} = await axios.post(backendUrl + '/api/admin/add-doctor')
+      const {data} = await axios.post(backendUrl + '/api/admin/add-doctor',formData)
       
     } catch (error) {
       console.log(error);
