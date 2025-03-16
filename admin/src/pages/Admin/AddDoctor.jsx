@@ -2,9 +2,9 @@ import React from 'react'
 
 const AddDoctor = () => {
   return (
-    <div>
-      d
-    </div>
+    <form>
+      
+    </form>
   )
 }
 
