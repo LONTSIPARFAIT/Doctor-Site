@@ -37,7 +37,7 @@ const App = () => {
     <>
 
     {/* start intrus */}
-    <div className='bg-[#F8F9FD]'> 
+    <div className='bg-[#1644ff]'> 
       <ToastContainer />
       <Navbar />
       <div className='flex items-start'>
