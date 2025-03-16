@@ -40,7 +40,7 @@ const App = () => {
     <div className='bg-[#F8F9FD]'> 
       <ToastContainer />
       <Navbar />
-      <div className='flex items-start cursor-pointer'>
+      <div className='flex items-start'>
         <Sidebar />
         <Routes>
           <Route path='/' element={<>ds</>} />
