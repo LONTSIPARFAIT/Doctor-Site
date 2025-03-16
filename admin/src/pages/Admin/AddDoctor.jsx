@@ -20,7 +20,7 @@ const AddDoctor = () => {
           <div className="">
             
             <div className="">
-              <p>Yours Name</p>
+              <p>Your Name</p>
               <input type="text" placeholder='Name' required />
             </div>
 
@@ -30,7 +30,7 @@ const AddDoctor = () => {
             </div>
 
             <div className="">
-              <p>Yours Name</p>
+              <p>Doctor Email</p>
               <input type="text" placeholder='Name' required />
             </div>
           </div>
