@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { assets } from '../../assets/assets'
 import { AdminContext } from '../../context/AdminContext'
+import { toast } from 'react-toastify'
 
 const AddDoctor = () => {
 
@@ -16,14 +17,14 @@ const AddDoctor = () => {
   const [address1,setAddress1] = useState('')
   const [address2,setAddress2] = useState('')
 
-  const { backendUrl, atoken } = useContext(AdminContext)
+  const { backendUrl, aToken } = useContext(AdminContext)
   const onSubmitHandle = async (event) =>{
     event.preventDefault()
 
     try {
 
       if (!docImg) {
-        
+        return toast.error()
       }
       
     } catch (error) {
