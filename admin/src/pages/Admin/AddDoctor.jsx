@@ -60,9 +60,9 @@ const AddDoctor = () => {
           <div className="">
             
             <div className="">
-              <p></p>
+              <p>Speciality</p>
             </div>
-            
+
           </div>
         </div>
 
