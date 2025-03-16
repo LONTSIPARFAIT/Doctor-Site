@@ -16,7 +16,11 @@ const AddDoctor = () => {
           <p>Upload doctor <br /> picture</p>
         </div>
 
-        <div className=""></div>
+        <div className="">
+          <div className="">
+            <div className=""></div>
+          </div>
+        </div>
 
       </div>
       
