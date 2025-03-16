@@ -53,6 +53,7 @@ const AddDoctor = () => {
         setDocImg(false)
         setName('')
         setEmail('')
+        setPassword('')
       }else {
         toast.error(data.message)
       }
