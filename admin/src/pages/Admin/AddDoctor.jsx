@@ -45,10 +45,7 @@ const AddDoctor = () => {
         console.log(`${key} : ${value}`);
       })
 
-      const {data} = {
-        s
-      }
-      
+      const {data} = await 
       
     } catch (error) {
       console.log(error);
