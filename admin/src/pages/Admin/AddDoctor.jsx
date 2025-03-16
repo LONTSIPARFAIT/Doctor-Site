@@ -71,6 +71,11 @@ const AddDoctor = () => {
               </select>
             </div>
 
+            <div className="">
+              <p>Fees</p>
+              <input type="number" placeholder='fees' required />
+            </div>
+
           </div>
         </div>
 
