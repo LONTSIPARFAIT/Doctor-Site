@@ -50,7 +50,7 @@ const App = () => {
           <Route path='/doctor-list' element={<DoctorList />} />
         </Routes>
       </div>
-      {/* </div> */}
+      </div>
       {/* end intrus */}
 
       {/* <Login /> */}
