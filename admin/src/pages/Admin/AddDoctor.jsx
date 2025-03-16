@@ -15,6 +15,8 @@ const AddDoctor = () => {
   const [address1,setAddress1] = useState('')
   const [address2,setAddress2] = useState('')
 
+  const 
+
   return (
     <form className='m-5 w-full'>
 
@@ -100,10 +102,10 @@ const AddDoctor = () => {
 
         <div className="">
           <p className='mt-4 mb-2'>About Doctor</p>
-          <textarea className='w-full px-4 pt-2 border rounded' placeholder='Write about doctor' rows={5} required/>
+          <textarea onChange={(e)=>setAbout(e.target.value)} value={about} className='w-full px-4 pt-2 border rounded' placeholder='Write about doctor' rows={5} required/>
         </div>
 
-        <button className='bg-primary px-10 py-3 mt-4 text-white rounded-full'>Add Doctor</button>
+        <button type='submit' className='bg-primary px-10 py-3 mt-4 text-white rounded-full'>Add Doctor</button>
 
       </div>
       
