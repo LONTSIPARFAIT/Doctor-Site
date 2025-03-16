@@ -8,9 +8,9 @@ const AddDoctor = () => {
       <p className='mb-6 text-lg font-medium'>Ajouter un Médecin</p>
 
       <div className="bg-white px-8 py-8 border rounded w-full max-w-4xl max-h-[80vh] overflow-y-scroll">
-        <div className="flex items-center gap-4 mb-8">
+        <div className="flex items-center gap-4 mb-8 text-gray-500">
           <label htmlFor="doc-img">
-            <img src={assets.upload_area} alt="" />
+            <img className='' src={assets.upload_area} alt="" />
           </label>
           <input type="file" id='doc-img' hidden />
           <p>Upload doctor <br /> picture</p>
