@@ -28,6 +28,12 @@ const AddDoctor = () => {
               <p>Doctor Email</p>
               <input type="email" placeholder='perfect@gmail.com' required />
             </div>
+
+            <div className="">
+              <p>Doctor Password</p>
+              <input type="password" required />
+            </div>
+
           </div>
         </div>
 
