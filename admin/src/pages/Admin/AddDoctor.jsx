@@ -24,8 +24,10 @@ const AddDoctor = () => {
     try {
 
       if (!docImg) {
-        return toast.error()
+        return toast.error("Image Not Selected")
       }
+
+      const formData = new FormData()
       
     } catch (error) {
       
@@ -120,7 +122,7 @@ const AddDoctor = () => {
           <textarea onChange={(e)=>setAbout(e.target.value)} value={about} className='w-full px-4 pt-2 border rounded' placeholder='Write about doctor' rows={5} required/>
         </div>
 
-        <button type='submit' className='bg-primary px-10 py-3 mt-4 text-white rounded-full'>Add Doctor</button>
+        <button type='submit' className='cursor-pointer bg-primary px-10 py-3 mt-4 text-white rounded-full'>Add Doctor</button>
 
       </div>
       
