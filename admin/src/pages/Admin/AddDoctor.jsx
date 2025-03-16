@@ -6,6 +6,7 @@ const AddDoctor = () => {
   const {docImg,setDocImg} = useState(false)
   const {name,setName} = useState('')
   const {email,setEmail} = useState('')
+  const {password,setEmail} = useState('')
 
   return (
     <form className='m-5 w-full'>
