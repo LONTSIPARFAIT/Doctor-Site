@@ -30,6 +30,7 @@ const AddDoctor = () => {
       const formData = new FormData()
 
       formData.append('image',docImg)
+      formData.append('name',name)
 
       
     } catch (error) {
