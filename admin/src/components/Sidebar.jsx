@@ -9,7 +9,7 @@ export default function Sidebar() {
 
   return (
 
-    <div className=''>
+    <div className='min-h-screen'>
       {
         // aToken && <ul>
           <ul>
