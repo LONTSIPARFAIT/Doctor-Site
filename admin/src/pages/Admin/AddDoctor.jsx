@@ -57,7 +57,7 @@ const AddDoctor = () => {
 
           </div>
 
-          <div className="">
+          <div className="w-full">
             
             <div className="flex-1 flex flex-col gap-1">
               <p>Speciality</p>
