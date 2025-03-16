@@ -20,7 +20,7 @@ const AddDoctor = () => {
   }
 
   return (
-    <form className='m-5 w-full'>
+    <form onSubmit={onSubmitHandle} className='m-5 w-full'>
 
       <p className='mb-6 text-lg font-medium'>Ajouter un Médecin</p>
 
