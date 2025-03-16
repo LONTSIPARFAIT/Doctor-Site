@@ -41,7 +41,7 @@ const AddDoctor = () => {
       formData.append('address',JSON.stringify({line1:address1,line2:address2}))
 
       // console log formData
-      console.log(formData);
+      
       
       
     } catch (error) {
