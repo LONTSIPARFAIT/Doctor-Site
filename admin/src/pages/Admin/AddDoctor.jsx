@@ -3,10 +3,10 @@ import { assets } from '../../assets/assets'
 
 const AddDoctor = () => {
 
-  const {docImg,setDocImg} = useState(false)
-  const {name,setName} = useState('')
-  const {email,setEmail} = useState('')
-  const {password,setPassword} = useState('')
+  const [docImg,setDocImg] = useState(false)
+  const name,setName = useState('')
+  const email,setEmail = useState('')
+  const password,setPassword = useState('')
 
   return (
     <form className='m-5 w-full'>
