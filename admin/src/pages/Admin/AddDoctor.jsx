@@ -4,6 +4,7 @@ import { assets } from '../../assets/assets'
 const AddDoctor = () => {
 
   const {docImg,setDocImg} = useState(false)
+  const {name,setDocImg} = useState(false)
 
   return (
     <form className='m-5 w-full'>
