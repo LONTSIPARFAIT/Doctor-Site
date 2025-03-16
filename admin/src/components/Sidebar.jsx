@@ -12,7 +12,7 @@ export default function Sidebar() {
     <div className='min-h-screen bg-white border-r'>
       {
         // aToken && <ul>
-          <ul className='text[#515151]'>
+          <ul className='text[#515151] mt-5'>
           <NavLink to={'/admin-dashboard'}>
             <img src={assets.home_icon} alt="" />
             <p>Dashboard</p>
