@@ -13,16 +13,16 @@ export default function Sidebar() {
       {
         // aToken && <ul>
           <ul>
-          <NavLink>
+          <NavLink to={'/admin-dashboard'}>
             <img src={assets.home_icon} alt="" />
             <p>Dashboard</p>
           </NavLink>
 
-          <NavLink>
+          <NavLink to={'/all-appointments'}>
             <img src={assets.appointment_icon} alt="" />
             <p>Rendez-vous</p>
           </NavLink>          
-          <NavLink>
+          <NavLink to={'/all-appointments'}>
             <img src={assets.add_icon} alt="" />
             <p>Ajouter un medecin</p>
           </NavLink>
