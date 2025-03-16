@@ -34,7 +34,7 @@ const AddDoctor = () => {
             
             <div className="flex-1 flex flex-col gap-1">
               <p>Doctor Name</p>
-              <input onChange={(e)=>setName} className='border rounded px-3 py-2' type="text" placeholder='Name' required />
+              <input onChange={(e)=>setName(e.target)} className='border rounded px-3 py-2' type="text" placeholder='Name' required />
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
