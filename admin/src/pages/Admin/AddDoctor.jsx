@@ -29,7 +29,7 @@ const AddDoctor = () => {
 
       const formData = new FormData()
 
-      formData.append('image',)
+      formData.append('image',docImg)
 
       
     } catch (error) {
