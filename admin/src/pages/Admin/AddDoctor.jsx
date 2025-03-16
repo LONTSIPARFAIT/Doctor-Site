@@ -9,10 +9,10 @@ const AddDoctor = () => {
 
       <div className="">
         <div className="">
-          <label htmlFor="">
+          <label htmlFor="doc-img">
             <img src={assets.upload_area} alt="" />
           </label>
-          <input type="file" name='' id='' />
+          <input type="file" name='' id='doc-img' />
         </div>
       </div>
       
