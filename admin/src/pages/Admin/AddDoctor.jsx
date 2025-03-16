@@ -21,7 +21,7 @@ const AddDoctor = () => {
             
             <div className="flex-1 flex flex-col gap-1">
               <p>Doctor Name</p>
-              <input className='border' type="text" placeholder='Name' required />
+              <input className='border rounded' type="text" placeholder='Name' required />
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
