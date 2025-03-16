@@ -72,8 +72,13 @@ const AddDoctor = () => {
             </div>
 
             <div className="">
-              <p>Fees</p>
-              <input type="number" placeholder='fees' required />
+              <p>Education</p>
+              <input type="text" placeholder='Education' required />
+            </div>
+
+            <div className="">
+              <p>Address</p>
+              <input type="text" placeholder='Education' required />
             </div>
 
           </div>
