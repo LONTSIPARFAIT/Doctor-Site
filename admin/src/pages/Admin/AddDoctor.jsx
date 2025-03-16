@@ -76,7 +76,7 @@ const AddDoctor = () => {
               <input type="text" placeholder='Education' required />
             </div>
 
-            <div className="">
+            <div className="flex-1 flex flex-col gap-1">
               <p>Address</p>
               <input type="text" placeholder='address 1' required />
               <input type="text" placeholder='address 2' required />
