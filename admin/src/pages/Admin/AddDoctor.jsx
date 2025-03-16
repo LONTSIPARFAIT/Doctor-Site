@@ -4,7 +4,7 @@ const AddDoctor = () => {
   return (
     <form>
 
-      <p>Ajouter un Médecin</p>
+      <p className=''>Ajouter un Médecin</p>
       
     </form>
   )
