@@ -41,8 +41,9 @@ const AddDoctor = () => {
       formData.append('address',JSON.stringify({line1:address1,line2:address2}))
 
       // console log formData
-      formData.forEach((value)=>{
-        s
+      formData.forEach((value,key)=>{
+        console.log(`${key}`);
+        
       })
       
       
