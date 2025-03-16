@@ -15,7 +15,7 @@ const AddDoctor = () => {
   const [address1,setAddress1] = useState('')
   const [address2,setAddress2] = useState('')
 
-  const onSubmitHandle = 
+  const onSubmitHandle = async () =
 
   return (
     <form className='m-5 w-full'>
