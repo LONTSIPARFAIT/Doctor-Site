@@ -18,6 +18,17 @@ const AddDoctor = () => {
 
         <div className="">
           <div className="">
+            
+            <div className="">
+              <p>Yours Name</p>
+              <input type="text" placeholder='Name' required />
+            </div>
+
+            <div className="">
+              <p>Yours Name</p>
+              <input type="text" placeholder='Name' required />
+            </div>
+
             <div className="">
               <p>Yours Name</p>
               <input type="text" placeholder='Name' required />
