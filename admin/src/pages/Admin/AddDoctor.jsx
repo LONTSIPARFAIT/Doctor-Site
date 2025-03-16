@@ -86,9 +86,11 @@ const AddDoctor = () => {
         </div>
 
         <div className="">
-          <p>About</p>
-          <input type="number" placeholder='fees' required />
+          <p>About Doctor</p>
+          <textarea placeholder='Write about doctor' rows={5} required/>
         </div>
+
+        <button>Add Doctor</button>
 
       </div>
       
