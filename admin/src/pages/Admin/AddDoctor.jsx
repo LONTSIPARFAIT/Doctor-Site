@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { assets } from '../../assets/assets'
 import { AdminContext } from '../../context/AdminContext'
 import { toast } from 'react-toastify'
+import axios tomf
 
 const AddDoctor = () => {
 
@@ -45,7 +46,7 @@ const AddDoctor = () => {
         console.log(`${key} : ${value}`);
       })
 
-      const {data} = await 
+      const {data} = await axios
       
     } catch (error) {
       console.log(error);
