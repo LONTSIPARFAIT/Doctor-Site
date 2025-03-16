@@ -9,7 +9,7 @@ export default function Sidebar() {
 
   return (
 
-    <div>
+    <div className=''>
       {
         // aToken && <ul>
           <ul>
