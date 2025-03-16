@@ -57,7 +57,11 @@ const AddDoctor = () => {
 
           </div>
 
-          <div className=""></div>
+          <div className="">
+            <div className="">
+              <p></p>
+            </div>
+          </div>
         </div>
 
       </div>
