@@ -32,7 +32,13 @@ const AddDoctor = () => {
       formData.append('image',docImg)
       formData.append('name',name)
       formData.append('email',email)
-
+      formData.append('password',password)
+      formData.append('experience',experience)
+      formData.append('fees',Number(fees))
+      formData.append('about',about)
+      formData.append('speciality',speciality)
+      formData.append('degree',degree)
+      formData.append('address',{line1:address1,line2:address2})
       
     } catch (error) {
       
