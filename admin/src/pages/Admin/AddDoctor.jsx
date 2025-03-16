@@ -61,6 +61,14 @@ const AddDoctor = () => {
             
             <div className="">
               <p>Speciality</p>
+              <select name="" id="">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
             </div>
 
           </div>
