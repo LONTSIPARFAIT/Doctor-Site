@@ -36,7 +36,9 @@ const AddDoctor = () => {
 
             <div className="">
               <p>Experience</p>
-              <select name="" id=""></select>
+              <select name="" id="">
+                <option value="1 Year">1 Year</option>
+              </select>
             </div>
 
           </div>
