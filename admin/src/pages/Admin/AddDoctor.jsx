@@ -45,7 +45,9 @@ const AddDoctor = () => {
         console.log(`${key} : ${value}`);
       })
 
-      const
+      const {data} = {
+        s
+      }
       
       
     } catch (error) {
