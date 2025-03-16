@@ -63,8 +63,8 @@ const AddDoctor = () => {
               <p>Speciality</p>
               <select name="" id="">
                 <option value="General physician">Médecin généraliste</option>
-                <option value="">Gynécologue</option>
-                <option value="">Dermatologue</option>
+                <option value="Gynecologist">Gynécologue</option>
+                <option value="Dermatologist">Dermatologue</option>
                 <option value="">Pediatricians</option>
                 <option value="">Neurologue</option>
                 <option value="">Gastroentérologue</option>
