@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { assets } from '../../assets/assets'
 
 const AddDoctor = () => {
+
+  const {docImg,setDocImg} = useState()
+
   return (
     <form className='m-5 w-full'>
 
