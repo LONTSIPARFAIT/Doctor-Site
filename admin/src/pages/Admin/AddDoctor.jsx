@@ -38,10 +38,26 @@ const AddDoctor = () => {
               <p>Experience</p>
               <select name="" id="">
                 <option value="1 Year">1 Year</option>
+                <option value="2 Year">2 Year</option>
+                <option value="3 Year">3 Year</option>
+                <option value="4 Year">4 Year</option>
+                <option value="5 Year">5 Year</option>
+                <option value="6 Year">6 Year</option>
+                <option value="7 Year">7 Year</option>
+                <option value="8 Year">8 Year</option>
+                <option value="9 Year">9 Year</option>
+                <option value="10 Year">10 Year</option>
               </select>
             </div>
 
+            <div className="">
+              <p>Fees</p>
+              <input type="number" placeholder='fees' required />
+            </div>
+
           </div>
+
+          <div className=""></div>
         </div>
 
       </div>
