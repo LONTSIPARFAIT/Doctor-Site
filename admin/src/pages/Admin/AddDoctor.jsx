@@ -25,13 +25,8 @@ const AddDoctor = () => {
             </div>
 
             <div className="">
-              <p>Yours Name</p>
-              <input type="text" placeholder='Name' required />
-            </div>
-
-            <div className="">
               <p>Doctor Email</p>
-              <input type="text" placeholder='Name' required />
+              <input type="email" placeholder='perfect@gmail.com' required />
             </div>
           </div>
         </div>
