@@ -12,7 +12,7 @@ const AddDoctor = () => {
           <label htmlFor="">
             <img src={assets.upload_area} alt="" />
           </label>
-          <input type="file" />
+          <input type="file" name='' id='' />
         </div>
       </div>
       
