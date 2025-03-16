@@ -90,7 +90,7 @@ const AddDoctor = () => {
           <textarea className='w-full px-4 pt-2 border rounded' placeholder='Write about doctor' rows={5} required/>
         </div>
 
-        <button className='bg-primary px-10'>Add Doctor</button>
+        <button className='bg-primary px-10 py-3'>Add Doctor</button>
 
       </div>
       
