@@ -16,7 +16,7 @@ const AddDoctor = () => {
   const [address2,setAddress2] = useState('')
 
   const onSubmitHandle = async (event) =>{
-    s
+    event.preventDefault()
   }
 
   return (
