@@ -8,7 +8,7 @@ const AddDoctor = () => {
 
       <div className="">
         <div className="">
-          s
+          <label htmlFor=""></label>
         </div>
       </div>
       
