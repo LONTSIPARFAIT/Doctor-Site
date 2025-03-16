@@ -5,9 +5,9 @@ const AddDoctor = () => {
   return (
     <form className='m-5 w-full'>
 
-      <p className='mb-6 text-lg font-medium'>Ajouter un Médecin</p>
+      {/* <p className='mb-6 text-lg font-medium'>Ajouter un Médecin</p> */}
 
-      <div className="bg-white px-8 py-8 border rounded w-full max-w-4xl max-h-[80vh] overflow-y-scroll">
+      {/* <div className="bg-white px-8 py-8 border rounded w-full max-w-4xl max-h-[80vh] overflow-y-scroll">
         <div className="flex items-center gap-4 mb-8 text-gray-500">
           <label htmlFor="doc-img">
             <img className='w-16 bg-gray-100 rounded-full cursor-pointer' src={assets.upload_area} alt="" />
@@ -16,7 +16,7 @@ const AddDoctor = () => {
           <p>Upload doctor <br /> picture</p>
         </div>
 
-        <div className="flex flex-col lg:">
+        <div className="flex flex-col lg:flex-row">
           <div className="">
             
             <div className="">
@@ -92,7 +92,7 @@ const AddDoctor = () => {
 
         <button>Add Doctor</button>
 
-      </div>
+      </div> */}
       
     </form>
   )
