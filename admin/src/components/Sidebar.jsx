@@ -11,8 +11,8 @@ export default function Sidebar() {
 
     <div>
       {
-        aToken && <ul>
-
+        // aToken && <ul>
+          <ul>
           <NavLink>
             <img src={assets.home_icon} alt="" />
             <p>Dashboard</p>
