@@ -15,6 +15,9 @@ const AddDoctor = () => {
           <input type="file" id='doc-img' hidden />
           <p>Upload doctor <br /> picture</p>
         </div>
+
+        <div className=""></div>
+
       </div>
       
     </form>
