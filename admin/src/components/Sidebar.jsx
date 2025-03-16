@@ -13,7 +13,7 @@ export default function Sidebar() {
       {
         // aToken && <ul className='text[#515151] mt-5'>
           <ul className='text[#515151] mt-5'>
-          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5`} to={'/admin-dashboard'}>
+          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3`} to={'/admin-dashboard'}>
             <img src={assets.home_icon} alt="" />
             <p>Dashboard</p>
           </NavLink>
