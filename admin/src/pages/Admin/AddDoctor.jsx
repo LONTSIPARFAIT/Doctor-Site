@@ -8,6 +8,12 @@ const AddDoctor = () => {
   const [email,setEmail] = useState('')
   const [password,setPassword] = useState('')
   const [experience,setExperience] = useState('')
+  const [fees,setFees] = useState('')
+  const [about,setAbout] = useState('')
+  const [speciality,setSpeciality] = useState('')
+  const [degree,setDegree] = useState('')
+  const [address1,setAddress1] = useState('')
+  const [address2,setAddress2] = useState('')
 
   return (
     <form className='m-5 w-full'>
