@@ -16,7 +16,7 @@ const AddDoctor = () => {
           <p>Upload doctor <br /> picture</p>
         </div>
 
-        <div className="">
+        <div className="flex flex-col lg:">
           <div className="">
             
             <div className="">
