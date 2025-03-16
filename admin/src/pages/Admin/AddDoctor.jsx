@@ -31,7 +31,12 @@ const AddDoctor = () => {
 
             <div className="">
               <p>Doctor Password</p>
-              <input type="password" required />
+              <input type="password" placeholder='Password' required />
+            </div>
+
+            <div className="">
+              <p>Doctor Password</p>
+              <input type="password" placeholder='Password' required />
             </div>
 
           </div>
