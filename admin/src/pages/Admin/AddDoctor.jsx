@@ -56,6 +56,7 @@ const AddDoctor = () => {
         setPassword('')
         setAddress1('')
         setAddress2('')
+        setDegree('')
       }else {
         toast.error(data.message)
       }
