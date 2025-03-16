@@ -1,4 +1,5 @@
 import React from 'react'
+import { assets } from '../../assets/assets'
 
 const AddDoctor = () => {
   return (
@@ -8,7 +9,10 @@ const AddDoctor = () => {
 
       <div className="">
         <div className="">
-          <label htmlFor=""></label>
+          <label htmlFor="">
+            <img src={assets.upload_area} alt="" />
+          </label>
+          <input type="file" />
         </div>
       </div>
       
