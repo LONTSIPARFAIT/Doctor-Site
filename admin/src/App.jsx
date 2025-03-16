@@ -37,7 +37,7 @@ const App = () => {
     <>
 
     {/* start intrus */}
-    <div className='bg-[#1644ff]'> 
+    <div className='bg-[#F8F9FD]'> 
       <ToastContainer />
       <Navbar />
       <div className='flex items-start'>
@@ -54,7 +54,7 @@ const App = () => {
       {/* end intrus */}
 
       {/* <Login /> */}
-      {/* <ToastContainer /> */}
+      <ToastContainer />
     </>
   )
 }
