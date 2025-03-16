@@ -27,7 +27,7 @@ export default function Sidebar() {
             <p>Ajouter un medecin</p>
           </NavLink>
           
-          <NavLink to={'/all-appointments'}>
+          <NavLink to={'/doctor-list'}>
             <img src={assets.people_icon} alt="" />
             <p>Liste des medecins</p>
           </NavLink>
