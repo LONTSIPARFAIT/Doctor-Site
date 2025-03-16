@@ -37,6 +37,7 @@ const App = () => {
     <>
 
     {/* start intrus */}
+      <ToastContainer />
       <Navbar />
       <div className='flex items-start'>
         <Sidebar />
