@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { assets } from '../../assets/assets'
 import { AdminContext } from '../../context/AdminContext'
 import { toast } from 'react-toastify'
-import axios tomf
+import axios from
 
 const AddDoctor = () => {
 
