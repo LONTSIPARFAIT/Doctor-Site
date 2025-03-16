@@ -20,7 +20,7 @@ const AddDoctor = () => {
           <div className="w-full lg:flex-1 flex flex-col gap-4">
             
             <div className="flex-1 flex flex-col gap-1">
-              <p>Your Name</p>
+              <p>Doctor Name</p>
               <input type="text" placeholder='Name' required />
             </div>
 
