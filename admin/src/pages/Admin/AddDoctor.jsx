@@ -43,11 +43,13 @@ const AddDoctor = () => {
       // console log formData
       formData.forEach((value,key)=>{
         console.log(`${key} : ${value}`);
-        
       })
+
+      const
       
       
     } catch (error) {
+      console.log(error);
       
     }
   }
