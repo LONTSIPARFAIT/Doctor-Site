@@ -24,17 +24,17 @@ const AddDoctor = () => {
               <input type="text" placeholder='Name' required />
             </div>
 
-            <div className="">
+            <div className="flex-1 flex flex-col gap-1">
               <p>Doctor Email</p>
               <input type="email" placeholder='perfect@gmail.com' required />
             </div>
 
-            <div className="">
+            <div className="flex-1 flex flex-col gap-1">
               <p>Doctor Password</p>
               <input type="password" placeholder='Password' required />
             </div>
 
-            <div className="">
+            <div className="flex-1 flex flex-col gap-1">
               <p>Experience</p>
               <select name="" id="">
                 <option value="1 Year">1 Year</option>
@@ -50,7 +50,7 @@ const AddDoctor = () => {
               </select>
             </div>
 
-            <div className="">
+            <div className="flex-1 flex flex-col gap-1">
               <p>Fees</p>
               <input type="number" placeholder='fees' required />
             </div>
@@ -59,7 +59,7 @@ const AddDoctor = () => {
 
           <div className="">
             
-            <div className="">
+            <div className="flex-1 flex flex-col gap-1">
               <p>Speciality</p>
               <select name="" id="">
                 <option value="General physician">Médecin généraliste</option>
