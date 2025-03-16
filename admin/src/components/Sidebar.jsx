@@ -13,7 +13,7 @@ export default function Sidebar() {
       {
         // aToken && <ul className='text[#515151] mt-5'>
           <ul className='text[#515151] mt-5'>
-          <NavLink className={({isActive})=>} to={'/admin-dashboard'}>
+          <NavLink className={({isActive})=>`flex`} to={'/admin-dashboard'}>
             <img src={assets.home_icon} alt="" />
             <p>Dashboard</p>
           </NavLink>
