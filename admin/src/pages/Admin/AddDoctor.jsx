@@ -12,7 +12,8 @@ const AddDoctor = () => {
           <label htmlFor="doc-img">
             <img src={assets.upload_area} alt="" />
           </label>
-          <input type="file" name='' id='doc-img' />
+          <input type="file" name='' id='doc-img' hidden />
+          <p></p>
         </div>
       </div>
       
