@@ -28,6 +28,9 @@ const AddDoctor = () => {
       }
 
       const formData = new FormData()
+
+      formData.append()
+
       
     } catch (error) {
       
