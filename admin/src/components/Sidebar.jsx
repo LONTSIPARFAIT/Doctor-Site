@@ -22,7 +22,7 @@ export default function Sidebar() {
             <img src={assets.appointment_icon} alt="" />
             <p>Rendez-vous</p>
           </NavLink>          
-          <NavLink to={'/add-doctor'}>
+          <NavLink className={({isActive})=>`flex items-center gap-3 py-3.5 px-3 md:px-9 md:w-72 cursor-pointer ${isActive ? 'bg-[#F2F3FF] border-r-4 border-[#5f6FFF]' : ''}`} to={'/add-doctor'}>
             <img src={assets.add_icon} alt="" />
             <p>Ajouter un medecin</p>
           </NavLink>
