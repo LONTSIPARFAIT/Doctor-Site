@@ -57,6 +57,7 @@ const AddDoctor = () => {
         setAddress1('')
         setAddress2('')
         setDegree('')
+        setFees('')
       }else {
         toast.error(data.message)
       }
