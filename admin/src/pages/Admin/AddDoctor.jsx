@@ -21,22 +21,22 @@ const AddDoctor = () => {
             
             <div className="flex-1 flex flex-col gap-1">
               <p>Doctor Name</p>
-              <input className='border rounded' type="text" placeholder='Name' required />
+              <input className='border rounded px-3 py-2' type="text" placeholder='Name' required />
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
               <p>Doctor Email</p>
-              <input type="email" placeholder='perfect@gmail.com' required />
+              <input className='border rounded px-3 py-2' type="email" placeholder='perfect@gmail.com' required />
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
               <p>Doctor Password</p>
-              <input type="password" placeholder='Password' required />
+              <input className='border rounded px-3 py-2' type="password" placeholder='Password' required />
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
               <p>Experience</p>
-              <select name="" id="">
+              <select className='border rounded px-3 py-2' name="" id="">
                 <option value="1 Year">1 Year</option>
                 <option value="2 Year">2 Year</option>
                 <option value="3 Year">3 Year</option>
@@ -52,7 +52,7 @@ const AddDoctor = () => {
 
             <div className="flex-1 flex flex-col gap-1">
               <p>Fees</p>
-              <input type="number" placeholder='fees' required />
+              <input className='border rounded px-3 py-2' type="number" placeholder='fees' required />
             </div>
 
           </div>
@@ -61,7 +61,7 @@ const AddDoctor = () => {
             
             <div className="flex-1 flex flex-col gap-1">
               <p>Speciality</p>
-              <select name="" id="">
+              <select className='border rounded px-3 py-2' name="" id="">
                 <option value="General physician">Médecin généraliste</option>
                 <option value="Gynecologist">Gynécologue</option>
                 <option value="Dermatologist">Dermatologue</option>
@@ -73,21 +73,21 @@ const AddDoctor = () => {
 
             <div className="flex-1 flex flex-col gap-1">
               <p>Education</p>
-              <input type="text" placeholder='Education' required />
+              <input className='border rounded px-3 py-2' type="text" placeholder='Education' required />
             </div>
 
             <div className="flex-1 flex flex-col gap-1">
               <p>Address</p>
-              <input type="text" placeholder='address 1' required />
-              <input type="text" placeholder='address 2' required />
+              <input className='border rounded px-3 py-2' type="text" placeholder='address 1' required />
+              <input className='border rounded px-3 py-2' type="text" placeholder='address 2' required />
             </div>
 
           </div>
         </div>
 
         <div className="">
-          <p>About Doctor</p>
-          <textarea placeholder='Write about doctor' rows={5} required/>
+          <p className='mt-4'>About Doctor</p>
+          <textarea className='border rounded px-3 py-2' placeholder='Write about doctor' rows={5} required/>
         </div>
 
         <button>Add Doctor</button>
