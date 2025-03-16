@@ -5,6 +5,12 @@ const AddDoctor = () => {
     <form>
 
       <p className=''>Ajouter un Médecin</p>
+
+      <div className="">
+        <div className="">
+          s
+        </div>
+      </div>
       
     </form>
   )
