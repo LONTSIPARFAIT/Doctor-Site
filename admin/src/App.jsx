@@ -40,10 +40,10 @@ const App = () => {
     <div className='bg-[#F8F9FD]'> 
       <ToastContainer />
       <Navbar />
-      <div className='flex items-start'>
+      <div className='flex items-start cursor-pointer'>
         <Sidebar />
         <Routes>
-          <Route path='/' element={<></>} />
+          <Route path='/' element={<>ds</>} />
           <Route path='/admin-dashboard' element={<Dashboard />} />
           <Route path='/all-appointments' element={<AllAppointments />} />
           <Route path='/add-doctor' element={<AddDoctor />} />
