@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { assets } from '../../assets/assets'
+import { AdminContext } from '../../context/AdminContext'
 
 const AddDoctor = () => {
 
@@ -15,7 +16,7 @@ const AddDoctor = () => {
   const [address1,setAddress1] = useState('')
   const [address2,setAddress2] = useState('')
 
-  const { backendUrl, atoken } = useContext()
+  const { backendUrl, atoken } = useContext(AdminContext)
   const onSubmitHandle = async (event) =>{
     event.preventDefault()
   }
