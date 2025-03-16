@@ -86,11 +86,11 @@ const AddDoctor = () => {
         </div>
 
         <div className="">
-          <p className='mt-4'>About Doctor</p>
-          <textarea className='border rounded px-3 py-2' placeholder='Write about doctor' rows={5} required/>
+          <p className='mt-4 mb-2'>About Doctor</p>
+          <textarea className='w-full px-4 pt-2 border rounded' placeholder='Write about doctor' rows={5} required/>
         </div>
 
-        <button>Add Doctor</button>
+        <button className='bg-primary px-10'>Add Doctor</button>
 
       </div>
       
