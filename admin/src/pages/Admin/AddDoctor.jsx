@@ -16,8 +16,8 @@ const AddDoctor = () => {
           <p>Upload doctor <br /> picture</p>
         </div>
 
-        <div className="flex flex-col lg:flex-row">
-          <div className="">
+        <div className="flex flex-col lg:flex-row items-start gap-10 text-gray-600">
+          <div className="w-full lg:">
             
             <div className="">
               <p>Your Name</p>
