@@ -13,7 +13,7 @@ const AddDoctor = () => {
             <img src={assets.upload_area} alt="" />
           </label>
           <input type="file" name='' id='doc-img' hidden />
-          <p>Upload doctor picture</p>
+          <p>Upload doctor <br /> picture</p>
         </div>
       </div>
       
