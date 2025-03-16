@@ -71,7 +71,7 @@ const AddDoctor = () => {
               </select>
             </div>
 
-            <div className="">
+            <div className="flex-1 flex flex-col gap-1">
               <p>Education</p>
               <input type="text" placeholder='Education' required />
             </div>
