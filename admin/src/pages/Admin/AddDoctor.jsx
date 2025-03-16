@@ -50,6 +50,8 @@ const AddDoctor = () => {
 
       if (data.success) {
         toast.success(data.message)
+      }else {
+        toast
       }
       
     } catch (error) {
