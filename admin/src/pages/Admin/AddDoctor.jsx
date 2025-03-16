@@ -19,7 +19,7 @@ const AddDoctor = () => {
         <div className="">
           <div className="">
             <div className="">
-              <p></p>
+              <p>Yours Name</p>
             </div>
           </div>
         </div>
