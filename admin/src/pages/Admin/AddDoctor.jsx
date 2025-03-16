@@ -25,7 +25,7 @@ const AddDoctor = () => {
           <label htmlFor="doc-img">
             <img className='w-16 bg-gray-100 rounded-full cursor-pointer' src={assets.upload_area} alt="" />
           </label>
-          <input onChange={} type="file" id='doc-img' hidden />
+          <input onChange={(e)=>setDocImg()} type="file" id='doc-img' hidden />
           <p>Upload doctor <br /> picture</p>
         </div>
 
