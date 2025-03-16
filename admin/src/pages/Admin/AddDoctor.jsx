@@ -18,7 +18,9 @@ const AddDoctor = () => {
 
         <div className="">
           <div className="">
-            <div className=""></div>
+            <div className="">
+              <p></p>
+            </div>
           </div>
         </div>
 
