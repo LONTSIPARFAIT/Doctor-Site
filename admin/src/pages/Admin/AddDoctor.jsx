@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { assets } from '../../assets/assets'
 import { AdminContext } from '../../context/AdminContext'
 import { toast } from 'react-toastify'
-import axios from
+import axios from 'axios'
 
 const AddDoctor = () => {
 
@@ -46,7 +46,7 @@ const AddDoctor = () => {
         console.log(`${key} : ${value}`);
       })
 
-      const {data} = await axios
+      const {data} = await axios.post
       
     } catch (error) {
       console.log(error);
