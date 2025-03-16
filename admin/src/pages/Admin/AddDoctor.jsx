@@ -42,7 +42,7 @@ const AddDoctor = () => {
 
       // console log formData
       formData.forEach((value,key)=>{
-        console.log(`${key}`);
+        console.log(`${key} : ${value}`);
         
       })
       
