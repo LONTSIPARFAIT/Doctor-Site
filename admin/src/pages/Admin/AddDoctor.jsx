@@ -51,6 +51,7 @@ const AddDoctor = () => {
       if (data.success) {
         toast.success(data.message)
         setDocImg(false)
+        setName
       }else {
         toast.error(data.message)
       }
