@@ -85,7 +85,7 @@ const loginAdmin = async (req, res) => {
     // API to get all doctors list for admin panel
     const allDoctors = async (req,res) => {
         try {
-            
+            const
         } catch (error) {
             
         }
