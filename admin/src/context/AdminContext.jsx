@@ -1,5 +1,6 @@
 import { createContext, useState } from "react";
 import  axios from 'axios'
+import { toast } from "react-toastify";
 
 const AdminContext = createContext();
 
@@ -16,7 +17,7 @@ const AdminContextProvider = (props) => {
       if (data.success) {
         setDoctors(data.doctors)
       }else {
-        
+        toast
       }
     } catch (error) {
       
