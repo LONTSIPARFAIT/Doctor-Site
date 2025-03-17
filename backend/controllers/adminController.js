@@ -82,7 +82,7 @@ const loginAdmin = async (req, res) => {
         
     }
 
-    // API
+    // API to get
 }
 
 export { addDoctor, loginAdmin };
