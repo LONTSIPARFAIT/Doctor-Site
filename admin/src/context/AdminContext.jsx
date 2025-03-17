@@ -12,7 +12,7 @@ const AdminContextProvider = (props) => {
 
   const getAllDoctors = async () => {
     try {
-      const {data} = await
+      const {data} = await axios
     } catch (error) {
       
     }
