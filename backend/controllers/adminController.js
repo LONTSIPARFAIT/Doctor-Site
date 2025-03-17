@@ -81,6 +81,8 @@ const loginAdmin = async (req, res) => {
         res.status(500).json({ message: 'Erreur du serveur' });
         
     }
+
+    // A
 }
 
 export { addDoctor, loginAdmin };
