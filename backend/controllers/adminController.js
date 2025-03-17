@@ -85,7 +85,8 @@ const loginAdmin = async (req, res) => {
     // API to get all doctors list for admin panel
     const allDoctors = async (req,res) => {
         try {
-            const doctors = await doctorModel
+            const doctors = await doctorModel.find
+
         } catch (error) {
             console.error('Erreur lors de la connexion de l\'administrateur:', error);
             res.status(500).json({ message: 'Erreur du serveur' });
