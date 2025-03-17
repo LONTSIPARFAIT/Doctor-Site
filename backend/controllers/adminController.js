@@ -86,7 +86,7 @@ const loginAdmin = async (req, res) => {
     const allDoctors = async (req,res) => {
         try {
             const doctors = await doctorModel.find({}).select('-password')
-            res.json(success: true,doctors)
+            res.json({ success: true, message: 'Connexion réussie',token });
 
         } catch (error) {
             console.error('Erreur lors de la connexion de l\'administrateur:', error);
