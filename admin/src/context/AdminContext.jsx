@@ -8,7 +8,7 @@ const AdminContextProvider = (props) => {
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL
 
-  const getAllDoctors 
+  const getAllDoctors =
 
   const value = {
     aToken,
