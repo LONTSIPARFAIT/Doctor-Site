@@ -11,6 +11,12 @@ const DoctorList = () => {
   //   }
   // },[aToken])
 
+  useEffect(()=>{
+    if (aToken) {
+      getAllDoctors()
+    }
+  },[aToken])
+
   return (
     <div className=''>
       <h1 className=''>Tous les Medecins</h1>
