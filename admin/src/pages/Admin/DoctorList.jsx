@@ -16,7 +16,11 @@ const DoctorList = () => {
       <h1 className=''>Tous les Medecins</h1>
       <div className="">
         {
-          doctors.map((item,index)=>())
+          doctors.map((item,index)=>(
+            <div className="">
+              j
+            </div>
+          ))
         }
       </div>
     </div>
