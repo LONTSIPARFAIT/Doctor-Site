@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import AddDoctor from './AddDoctor'
 
 const DoctorList = () => {
 
