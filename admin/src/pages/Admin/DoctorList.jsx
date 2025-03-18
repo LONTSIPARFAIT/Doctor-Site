@@ -29,7 +29,7 @@ const DoctorList = () => {
                 <p>{item.speciality}</p>
               </div>
               <div className="">
-                <input type="checkbox" name="" />
+                <input type="checkbox" checked />
               </div>
             </div>
           ))
