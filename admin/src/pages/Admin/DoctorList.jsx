@@ -12,7 +12,7 @@ const DoctorList = () => {
   },[aToken])
 
   return (
-    <div>
+    <div className=''>
       <h1 className=''>Tous les Medecins</h1>
       <div className=""></div>
     </div>
