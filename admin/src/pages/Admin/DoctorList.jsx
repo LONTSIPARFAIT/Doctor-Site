@@ -6,8 +6,8 @@ const DoctorList = () => {
   const {doctors, aToken, getAllDoctors } = useContext(AdminContext)
 
   useEffect(()=>{
-    
-  })
+
+  },)
 
   return (
     <div>
