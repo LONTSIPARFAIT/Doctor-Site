@@ -17,7 +17,7 @@ const AdminContextProvider = (props) => {
       if (data.success) {
         setDoctors(data.doctors)
       }else {
-        toast.error
+        toast.error(data)
       }
     } catch (error) {
       toast
