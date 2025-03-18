@@ -7,7 +7,7 @@ const DoctorList = () => {
 
   useEffect(()=>{
 
-  },)
+  },[aToken])
 
   return (
     <div>
