@@ -6,7 +6,9 @@ const DoctorList = () => {
   const {doctors, aToken, getAllDoctors } = useContext(AdminContext)
 
   useEffect(()=>{
-
+    if (aToken) {
+      
+    }
   },[aToken])
 
   return (
