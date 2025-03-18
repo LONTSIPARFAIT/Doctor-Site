@@ -25,8 +25,8 @@ const DoctorList = () => {
             <div key={index} className="">
               <img src={item.image} alt="" />
               <div>
-                <p></p>
-                <p></p>
+                <p>{item.}</p>
+                <p>{item.}</p>
               </div>
             </div>
           ))
