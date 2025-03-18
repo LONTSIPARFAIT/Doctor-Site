@@ -13,7 +13,7 @@ const DoctorList = () => {
 
   return (
     <div>
-      DoctorList
+      h1
     </div>
   )
 }
