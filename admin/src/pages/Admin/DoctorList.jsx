@@ -28,7 +28,9 @@ const DoctorList = () => {
                 <p>{item.name}</p>
                 <p>{item.speciality}</p>
               </div>
-              <div className=""></div>
+              <div className="">
+                <input type="checpoint" name="" id="" />
+              </div>
             </div>
           ))
         }
