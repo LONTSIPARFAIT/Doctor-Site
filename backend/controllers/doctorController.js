@@ -1,5 +1,5 @@
 
 
-const changeAvailablity = async ()=>{
-    
+const changeAvailablity = async (req,res)=>{
+
 }
