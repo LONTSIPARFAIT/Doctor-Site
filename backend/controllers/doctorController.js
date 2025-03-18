@@ -16,4 +16,4 @@ const changeAvailablity = async (req,res)=>{
     }
 }
 
-export 
+export {changeAvailablity}
