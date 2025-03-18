@@ -20,7 +20,7 @@ const AdminContextProvider = (props) => {
         toast.error(data.message)
       }
     } catch (error) {
-      toast.error
+      toast.error()
     }
   }
 
