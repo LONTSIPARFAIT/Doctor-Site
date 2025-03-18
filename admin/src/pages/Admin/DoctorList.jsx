@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 const DoctorList = () => {
 
-  const {doctors, aToken, getAllDoctors }
+  const {doctors, aToken, getAllDoctors } = useContext
 
   return (
     <div>
