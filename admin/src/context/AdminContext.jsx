@@ -26,6 +26,8 @@ const AdminContextProvider = (props) => {
     }
   }
 
+  const changeAvailablity
+
   const value = {
     aToken,
     setAToken,
