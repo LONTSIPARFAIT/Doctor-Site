@@ -8,7 +8,7 @@ const changeAvailablity = async (req,res)=>{
 
         const docData = await doctorModel.findById(docId)
         await doctorModel.findByIdAndUpdate(docId, { available:!docData.available })
-        res.json({success:true})
+        res.json({success:true, message})
         
     } catch (error) {
         console.error('Erreur lors de la connexion du medecin:', error);
