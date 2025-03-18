@@ -2,6 +2,8 @@
 
 const changeAvailablity = async (req,res)=>{
     try {
+
+        const
         
     } catch (error) {
         console.error('Erreur lors de la connexion du medecin:', error);
