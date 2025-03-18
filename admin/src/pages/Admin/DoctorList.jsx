@@ -19,7 +19,7 @@ const DoctorList = () => {
   return (
     <div className='mt-5 max-h-[90vh] overflow-y-scroll'>
       <h1 className='text-lg font-medium'>Tous les Medecins</h1>
-      <div className="w-full flex flex-wrap gap-4 pt-5">
+      <div className="w-full flex flex-wrap gap-4 pt-5 gap-y-6">
         {
           doctors.map((item,index)=>(
             <div key={index} className="">
