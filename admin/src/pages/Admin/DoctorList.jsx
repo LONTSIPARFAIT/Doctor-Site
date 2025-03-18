@@ -18,7 +18,7 @@ const DoctorList = () => {
 
   return (
     <div className='mt-5 max-h-[90vh] overflow-y-scroll'>
-      <h1 className=''>Tous les Medecins</h1>
+      <h1 className='text-lg'>Tous les Medecins</h1>
       <div className="">
         {
           doctors.map((item,index)=>(
