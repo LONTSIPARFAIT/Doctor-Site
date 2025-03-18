@@ -28,6 +28,8 @@ const AdminContextProvider = (props) => {
     aToken,
     setAToken,
     backendUrl,
+    doctors,
+    doctors,
   };
 
   return (
