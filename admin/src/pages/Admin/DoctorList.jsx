@@ -5,11 +5,11 @@ const DoctorList = () => {
 
   const {doctors, aToken, getAllDoctors } = useContext(AdminContext)
 
-  useEffect(()=>{
-    if (aToken) {
-      getAllDoctors()
-    }
-  },[aToken])
+  // useEffect(()=>{
+  //   if (aToken) {
+  //     getAllDoctors()
+  //   }
+  // },[aToken])
 
   return (
     <div className=''>
