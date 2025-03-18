@@ -5,19 +5,19 @@ const DoctorList = () => {
 
   const {doctors, aToken, getAllDoctors } = useContext(AdminContext)
 
-  // useEffect(()=>{
-  //   if (aToken) {
-  //     getAllDoctors()
-  //   }
-  // },[aToken])  
-
   useEffect(()=>{
-    getAllDoctors()
+    if (aToken) {
+      getAllDoctors()
+    }
+  },[aToken])  
+
+  // useEffect(()=>{
+  //   getAllDoctors()
     
-  })
+  // })
 
   return (
-    <div className='mt-5'>
+    <div className='mt-5 max-h-[0]'>
       <h1 className=''>Tous les Medecins</h1>
       <div className="">
         {
