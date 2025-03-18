@@ -2,7 +2,7 @@ import React from 'react'
 
 const DoctorList = () => {
 
-  const
+  const {doctors, aToken }
 
   return (
     <div>
