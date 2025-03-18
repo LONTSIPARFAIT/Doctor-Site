@@ -26,7 +26,7 @@ const DoctorList = () => {
               <img className='bg-indigo-50 group-hover:bg-[#5f6FFF] transition-all duration-500' src={item.image} alt="" />
               <div className='p-4'>
                 <p className='text-neutral-800 text-lg font-medium'>{item.name}</p>
-                <p className=''>{item.speciality}</p>
+                <p className='text-zinc-600'>{item.speciality}</p>
               </div>
               <div className="">
                 <input type="checkbox" checked={item.available} />
