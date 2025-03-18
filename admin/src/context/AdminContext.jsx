@@ -49,6 +49,7 @@ const AdminContextProvider = (props) => {
     backendUrl,
     doctors,
     getAllDoctors,
+    getAllDoctors,
   };
 
   return (
