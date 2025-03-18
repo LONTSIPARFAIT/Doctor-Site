@@ -12,10 +12,9 @@ const DoctorList = () => {
   // },[aToken])
 
   useEffect(()=>{
-    if (aToken) {
-      getAllDoctors()
-    }
-  },[aToken])
+    getAllDoctors()
+    
+  },[])
 
   return (
     <div className=''>
