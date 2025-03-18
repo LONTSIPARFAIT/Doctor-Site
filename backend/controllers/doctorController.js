@@ -1,3 +1,5 @@
 
 
-const changeAvailablity
+const changeAvailablity = async ()=>{
+    
+}
