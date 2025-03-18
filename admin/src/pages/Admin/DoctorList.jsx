@@ -9,12 +9,12 @@ const DoctorList = () => {
   //   if (aToken) {
   //     getAllDoctors()
   //   }
-  // },[aToken])
+  // },[aToken])  
 
   useEffect(()=>{
     getAllDoctors()
     
-  },[])
+  })
 
   return (
     <div className=''>
@@ -24,6 +24,10 @@ const DoctorList = () => {
           doctors.map((item,index)=>(
             <div key={index} className="">
               <img src={item.image} alt="" />
+              <div>
+                <p></p>
+                <p></p>
+              </div>
             </div>
           ))
         }
