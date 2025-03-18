@@ -26,7 +26,7 @@ const AdminContextProvider = (props) => {
     }
   }
 
-  const changeAvailablity
+  const changeAvailablity = async ()
 
   const value = {
     aToken,
