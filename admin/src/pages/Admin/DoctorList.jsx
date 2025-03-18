@@ -17,7 +17,7 @@ const DoctorList = () => {
       <div className="">
         {
           doctors.map((item,index)=>(
-            <div className="">
+            <div key={index} className="">
               j
             </div>
           ))
