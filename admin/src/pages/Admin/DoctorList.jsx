@@ -13,7 +13,7 @@ const DoctorList = () => {
 
   return (
     <div>
-      <h1>Tous les Medecins</h1>
+      <h1 className=''>Tous les Medecins</h1>
       <div className=""></div>
     </div>
   )
