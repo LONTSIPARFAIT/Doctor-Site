@@ -28,7 +28,7 @@ const DoctorList = () => {
                 <p className='text-neutral-800 text-lg font-medium'>{item.name}</p>
                 <p className='text-zinc-600 text-sm'>{item.speciality}</p>
               </div>
-              <div className="mt-2">
+              <div className="mt-2 flex">
                 <input type="checkbox" checked={item.available} />
                 <p>Available</p>
               </div>
