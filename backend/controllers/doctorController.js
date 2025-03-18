@@ -1,3 +1,4 @@
+import doctorModel from "../models/doctorModel";
 
 
 const changeAvailablity = async (req,res)=>{
@@ -5,7 +6,7 @@ const changeAvailablity = async (req,res)=>{
 
         const {docId} = req.body
 
-        const doctorData
+        const doctorData = await doctorModel
         
     } catch (error) {
         console.error('Erreur lors de la connexion du medecin:', error);
