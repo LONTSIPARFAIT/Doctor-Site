@@ -5,7 +5,7 @@ const changeAvailablity = async (req,res)=>{
 
         const {docId} = req.body
 
-        const
+        const doctorData
         
     } catch (error) {
         console.error('Erreur lors de la connexion du medecin:', error);
