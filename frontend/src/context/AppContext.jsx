@@ -28,7 +28,7 @@ const AppContextProvider = (props)=>{
         }
     }
 
-    useEffect
+    useEffect(())
 
     return (
         <AppContext.Provider value={value}>
