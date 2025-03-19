@@ -16,7 +16,11 @@ const AppContextProvider = (props)=>{
     }
 
     const getDoctorData = async () => {
-        e
+        try {
+            
+        } catch (error) {
+            
+        }
     }
 
     return (
