@@ -24,7 +24,7 @@ const AppContextProvider = (props)=>{
             if (data.success) {
                 setDoctors(data.doctors)
             }else{
-                
+                toast.error(error)
             }
         } catch (error) {
             console.log(error);
