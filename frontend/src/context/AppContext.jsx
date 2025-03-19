@@ -17,7 +17,7 @@ const AppContextProvider = (props)=>{
 
     const getDoctorData = async () => {
         try { 
-            const {data} = await
+            const {data} = await axios
         } catch (error) {
             
         }
