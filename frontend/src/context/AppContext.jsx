@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { doctors } from "../assets/assets";
 import axios from 'axios'
 
@@ -9,7 +9,7 @@ const AppContextProvider = (props)=>{
 
     const currencySymbol = "$"
     const backendUrl = import.meta.env.VITE_BACKEND_URL
-    const [] = 
+    const [] = useState
 
     const value = {
         doctors,
