@@ -23,6 +23,8 @@ const AppContextProvider = (props)=>{
 
             if (data.success) {
                 setDoctors(data.doctors)
+            }else{
+                
             }
         } catch (error) {
             console.log(error);
