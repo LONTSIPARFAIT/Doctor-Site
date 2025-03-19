@@ -30,7 +30,7 @@ const AppContextProvider = (props)=>{
 
     useEffect(()=>{
         d
-    })
+    },[])
 
     return (
         <AppContext.Provider value={value}>
