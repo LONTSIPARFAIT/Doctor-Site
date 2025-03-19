@@ -9,7 +9,7 @@ const AppContextProvider = (props)=>{
 
     const currencySymbol = "$"
     const backendUrl = import.meta.env.VITE_BACKEND_URL
-    consst
+    const
 
     const value = {
         doctors,
