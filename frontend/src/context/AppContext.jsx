@@ -24,6 +24,7 @@ const AppContextProvider = (props)=>{
                 setDoctors(data.doctors)
             }
         } catch (error) {
+            console.log(error);
             
         }
     }
