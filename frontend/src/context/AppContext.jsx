@@ -15,7 +15,7 @@ const AppContextProvider = (props)=>{
         currencySymbol,
     }
 
-    const
+    const getDoctorData
 
     return (
         <AppContext.Provider value={value}>
