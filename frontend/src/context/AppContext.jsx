@@ -8,7 +8,7 @@ export const AppContext = createContext()
 const AppContextProvider = (props)=>{
 
     const currencySymbol = "$"
-    const backendUrl = import.meta
+    const backendUrl = import.meta.env
 
     const value = {
         doctors,
