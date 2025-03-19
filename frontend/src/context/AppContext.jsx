@@ -19,7 +19,7 @@ const AppContextProvider = (props)=>{
         try { 
             const {data} = await axios.get(backendUrl + '/api/doctor/list')
 
-            if (data) {
+            if (data.success) {
                 
             }
         } catch (error) {
