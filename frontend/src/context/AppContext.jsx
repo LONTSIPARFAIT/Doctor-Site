@@ -17,7 +17,7 @@ const AppContextProvider = (props)=>{
 
     const getDoctorData = async () => {
         try { 
-            const {data} = await axios.get(backendUrl + '/api/')
+            const {data} = await axios.get(backendUrl + '/api/doctor')
         } catch (error) {
             
         }
