@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import { doctors } from "../assets/assets";
 import axios from 'axios'
 
@@ -27,6 +27,8 @@ const AppContextProvider = (props)=>{
             
         }
     }
+
+    useEffect
 
     return (
         <AppContext.Provider value={value}>
