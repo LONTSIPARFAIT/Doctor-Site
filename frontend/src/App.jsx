@@ -11,7 +11,7 @@ import Appointment from './pages/Appointment'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { ToastContainer, toast } from 'react-toastify'
-import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify'
 
 function App() {
 
