@@ -1,6 +1,6 @@
 import { createContext } from "react";
 import { doctors } from "../assets/assets";
-import axios from 'axiox'
+import axios from 'axios'
 
 
 export const AppContext = createContext()
