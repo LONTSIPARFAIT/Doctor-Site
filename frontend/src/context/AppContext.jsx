@@ -29,7 +29,7 @@ const AppContextProvider = (props)=>{
     }
 
     useEffect(()=>{
-        getDoctorData
+        getDoctorData()
     },[])
 
     return (
